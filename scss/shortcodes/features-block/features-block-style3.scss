@@ -1,0 +1,74 @@
+@import "../../bootstrap-loader";
+@import "features-common";
+
+.features-block-style3 {
+  margin-bottom: 30px !important;
+  @include media-breakpoint-down(md) {
+    margin-top: 30px;
+  }
+
+  .icon {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    background: linear-gradient(99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+    text-align: center;
+    border-radius: 50%;
+    i {
+      font-size: 40px;
+      color: var(--theme-color-white);
+      [data-tm-layout="dark"] & {
+        color: #fff;
+      }
+      transition: all 900ms ease;
+    }
+    img,
+    svg {
+      transition: all 900ms ease;
+    }
+  }
+
+  .content {
+    max-width: 310px;
+    margin-top: 30px;
+
+    .features-title {
+      color: var(--theme-color-white);
+      margin-bottom: 10px;
+
+      a {
+        background-position: 0 95%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        display: inline;
+
+        &:hover {
+          background-size: 100% 2px;
+          background-image: linear-gradient(180deg, var(--theme-color-white) 0%, var(--theme-color-white) 100%);
+        }
+      }
+    }
+
+    .features-details {
+      color: var(--theme-color-white);
+    }
+    .text-btn {
+      color: var(--theme-color-white);
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 20px;
+    }
+  }
+
+  &:hover {
+    .icon {
+      i {
+        transform: rotateY(360deg);
+      }
+      img,
+      svg {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.tm-sc-projects .cat-list {
+  list-style: none;
+  margin: 0;
+}
+.tm-sc-projects .cat-list li {
+  display: inline;
+  color: #aaa;
+  margin-left: 7px;
+  font-size: 13px;
+}
+.tm-sc-projects .cat-list li a {
+  color: #aaa;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.tm-sc-projects .cat-list li:last-child span {
+  display: none;
+}
+
+.projects-current-theme4 {
+  position: relative;
+  z-index: 1;
+}
+.projects-current-theme4 .image {
+  overflow: hidden;
+}
+.projects-current-theme4 .image img {
+  width: 100%;
+}
+.projects-current-theme4 .icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  background: var(--gradient-1);
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+.projects-current-theme4 .icon i {
+  display: inline-block;
+  transition: all 300ms ease;
+}
+.projects-current-theme4 .icon:hover i {
+  opacity: 1;
+  transform: rotate(45deg);
+}
+.projects-current-theme4 .content {
+  max-width: 310px;
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+  right: 45px;
+  z-index: 1;
+}
+.projects-current-theme4 .content .title {
+  padding: 5px 20px;
+  color: #fff;
+  background-color: var(--theme-color2);
+  transition: all 300ms ease 100ms;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  margin-bottom: 0;
+  display: inline-block;
+}
+.projects-current-theme4 .content .title a:hover, .projects-current-theme4 .content .title a:focus {
+  color: #fff;
+}
+.projects-current-theme4 .content .cat-list {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 30px;
+  background-color: var(--theme-color3);
+  transition: all 300ms ease 300ms;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  margin-bottom: 0;
+}
+.projects-current-theme4 .content .cat-list li {
+  color: var(--theme-color2);
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  margin-left: 0;
+}
+.projects-current-theme4:hover .icon {
+  left: 40px;
+  opacity: 1;
+  visibility: visible;
+}
+.projects-current-theme4:hover .content .title,
+.projects-current-theme4:hover .content .cat-list {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}

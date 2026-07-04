@@ -1,0 +1,228 @@
+.pricing-plan-skin-style1:hover .inner-box, .pricing-plan-skin-style1.pricing-active .inner-box {
+  background-color: var(--theme-color2);
+  position: relative;
+  z-index: 1;
+  transform: translateY(-10px);
+}
+.pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-prefix, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-prefix {
+  color: var(--theme-color-white);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-prefix, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-prefix {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-price, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-price {
+  color: var(--theme-color-white);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-price, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-price {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-separator, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-separator {
+  color: var(--theme-color-white);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-separator, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-separator {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-postfix, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-postfix {
+  color: var(--theme-color-white);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-postfix, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-postfix {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .pricing-plan-label, .pricing-plan-skin-style1.pricing-active .inner-box .pricing-plan-label {
+  text-transform: uppercase;
+  color: var(--theme-color2);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 0px 55px;
+  background-color: var(--theme-color1);
+  width: fit-content;
+  position: absolute;
+  top: 35px;
+  left: -55px;
+  transform: rotate(-45deg);
+}
+.pricing-plan-skin-style1:hover .inner-box .head, .pricing-plan-skin-style1.pricing-active .inner-box .head {
+  border-bottom: 1px solid rgba(232, 234, 241, 0.2);
+}
+.pricing-plan-skin-style1:hover .inner-box .head .pricing-plan-title, .pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-title {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .head .pricing-plan-subtitle, .pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-subtitle {
+  color: #c9c9c9;
+}
+.pricing-plan-skin-style1:hover .inner-box .head .pricing-plan-thumb img, .pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-thumb img {
+  filter: brightness(0) invert(1);
+}
+.pricing-plan-skin-style1:hover .inner-box svg path, .pricing-plan-skin-style1.pricing-active .inner-box svg path {
+  fill: #fff;
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box svg path, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
+  fill: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box i, .pricing-plan-skin-style1.pricing-active .inner-box i {
+  color: #fff !important;
+}
+.pricing-plan-skin-style1:hover .inner-box .features-list li, .pricing-plan-skin-style1.pricing-active .inner-box .features-list li {
+  color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .btn-view-details, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details {
+  margin-top: 40px;
+  text-align: center;
+}
+.pricing-plan-skin-style1:hover .inner-box .btn-view-details a, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  color: #fff;
+  width: 100% !important;
+  max-width: 310px;
+}
+@media (max-width: 767.98px) {
+  .pricing-plan-skin-style1:hover .inner-box .btn-view-details a, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
+    min-width: 150px;
+  }
+}
+.pricing-plan-skin-style1 .inner-box {
+  padding: 50px;
+  border: 1px solid #eee;
+  background-color: var(--theme-color-white);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 500ms ease;
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box {
+  border-color: rgba(255, 255, 255, 0.1098039216);
+}
+@media (max-width: 575.98px) {
+  .pricing-plan-skin-style1 .inner-box {
+    padding: 50px 20px 50px 20px;
+  }
+}
+.pricing-plan-skin-style1 .inner-box .price .pricing-plan-prefix {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--headings-color);
+}
+.pricing-plan-skin-style1 .inner-box .price .pricing-plan-price {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--headings-color);
+}
+.pricing-plan-skin-style1 .inner-box .price .pricing-plan-separator {
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing-plan-skin-style1 .inner-box .price .pricing-plan-postfix {
+  color: #6b7280;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing-plan-skin-style1 .inner-box .head {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e8eaf1;
+}
+.pricing-plan-skin-style1 .inner-box .head .icon {
+  color: #1a4137;
+  font-size: 60px;
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .head .icon {
+  color: #fff;
+}
+.pricing-plan-skin-style1 .inner-box .head .pricing-plan-title {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.pricing-plan-skin-style1 .inner-box .head .pricing-plan-subtitle {
+  font-size: 14px;
+  line-height: 14px;
+}
+.pricing-plan-skin-style1 .inner-box .features-list {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.pricing-plan-skin-style1 .inner-box .features-list li {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+.pricing-plan-skin-style1 .inner-box .features-list li i {
+  color: var(--theme-color1);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .features-list li i {
+  color: #fff;
+}
+.pricing-plan-skin-style1 .inner-box .btn-view-details {
+  margin-top: 40px;
+  text-align: center;
+}
+.pricing-plan-skin-style1 .inner-box .btn-view-details a {
+  width: 100% !important;
+}
+.pricing-plan-skin-style1 .inner-box .btn-view-details a:hover {
+  color: var(--theme-color3);
+}
+.pricing-plan-skin-style1 .inner-box .btn-view-details a:hover:before {
+  background-color: var(--theme-color1);
+}
+
+.pricing-plan-skin-style1.pricing-active .inner-box {
+  background-color: var(--theme-color2);
+  position: relative;
+  z-index: 1;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .pricing-plan-label {
+  text-transform: uppercase;
+  color: var(--theme-color2);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding: 0px 55px;
+  background-color: var(--theme-color3);
+  width: fit-content;
+  position: absolute;
+  top: 35px;
+  left: -55px;
+  transform: rotate(-45deg);
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .head {
+  border-bottom: 1px solid rgba(232, 234, 241, 0.2);
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-title {
+  color: #fff;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-subtitle {
+  color: #c9c9c9;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-thumb img {
+  filter: brightness(0) invert(1);
+}
+.pricing-plan-skin-style1.pricing-active .inner-box svg path {
+  fill: var(--theme-color-white);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
+  fill: #fff;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box i {
+  color: #fff !important;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .features-list li {
+  color: #fff;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details {
+  margin-top: 40px;
+  text-align: center;
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  color: #fff;
+  width: 100% !important;
+  max-width: 310px;
+}
+@media (max-width: 767.98px) {
+  .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
+    min-width: 150px;
+  }
+}

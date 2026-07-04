@@ -1,0 +1,56 @@
+@import "../../bootstrap-loader";
+/*Btn Style 5*/
+.btn-style5 {
+  align-items: center;
+  background-color: var(--theme-color1);
+  border-radius: 30px;
+  color: var(--theme-color2);
+  display: inline-flex;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  @include transition(all 400ms ease);
+  z-index: 0;
+  .left-arrow {
+    left: 7px;
+    transform: scale(0);
+  }
+  .btn-title {
+    color: var(--theme-color2);
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 70px 0 26px;
+    text-transform: uppercase;
+    @include transition(all 400ms ease);
+  }
+  .left-arrow,
+  .right-arrow {
+    background-color: var(--theme-color2);
+    border-radius: 50%;
+    color: var(--theme-color-light);
+    font-size: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    @include transition(all 400ms ease);
+  }
+  .right-arrow {
+    left: auto;
+    right: 7px;
+    transform: scale(1);
+  }
+  &:hover {
+    .left-arrow {
+      transform: scale(1);
+    }
+    .btn-title {
+      transform: translateX(37px);
+    }
+    .right-arrow {
+      transform: scale(0);
+    }
+  }
+}

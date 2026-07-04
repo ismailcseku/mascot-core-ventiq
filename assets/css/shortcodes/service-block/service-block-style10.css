@@ -1,0 +1,84 @@
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.tm-sc-service .service-block-style10 {
+  border-right: 1px solid rgba(var(--theme-color2-rgb), 0.1);
+  border-bottom: 1px solid rgba(var(--theme-color2-rgb), 0.1);
+}
+.tm-sc-service .service-block-style10 .inner-box {
+  position: relative;
+  padding: 30px 30px 30px;
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box:before {
+  background-color: var(--theme-color1);
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover:before {
+  height: 100%;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .icon-box {
+  color: #fff;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .icon-box .icon {
+  transform: rotateY(-180deg);
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .content-box .service-title {
+  color: #fff;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .content-box .service-title a {
+  color: #fff;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .content-box .service-title a:hover {
+  color: #fff;
+}
+.tm-sc-service .service-block-style10 .inner-box:hover .content-box .arrow-btn {
+  color: #fff;
+}
+.tm-sc-service .service-block-style10 .inner-box .icon-box {
+  color: var(--headings-color);
+  position: relative;
+  margin-bottom: 179px;
+  font-size: 50px;
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box .icon-box .icon {
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box .content-box {
+  position: relative;
+}
+.tm-sc-service .service-block-style10 .inner-box .content-box .service-title {
+  margin-bottom: 14px;
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box .content-box .arrow-btn {
+  color: var(--headings-color);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 1;
+  font-family: var(--heading-font-family);
+  transition: all 300ms ease;
+}
+.tm-sc-service .service-block-style10 .inner-box .content-box .arrow-btn:hover .icon {
+  transform: rotate(-45deg);
+}
+.tm-sc-service .service-block-style10 .inner-box .content-box .arrow-btn .icon {
+  font-size: 14px;
+  margin-left: 5px;
+  transition: all 300ms ease;
+}

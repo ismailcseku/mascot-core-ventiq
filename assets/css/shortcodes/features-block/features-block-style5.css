@@ -1,0 +1,58 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  left: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+.features-block-style5 .icon {
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  background: linear-gradient(99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+  border-radius: 50%;
+}
+.features-block-style5 .icon i {
+  font-size: 40px;
+  color: var(--theme-color-white);
+  transition: all 900ms ease;
+}
+.features-block-style5 .icon img,
+.features-block-style5 .icon svg {
+  transition: all 900ms ease;
+}
+.features-block-style5 .content {
+  margin-top: 20px;
+}
+.features-block-style5 .content .features-title {
+  color: var(--theme-color2);
+}
+.features-block-style5:hover .icon i {
+  transform: rotateY(360deg);
+}
+.features-block-style5:hover .icon img,
+.features-block-style5:hover .icon svg {
+  transform: rotateY(360deg);
+}

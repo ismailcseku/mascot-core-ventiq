@@ -1,0 +1,29 @@
+@import "../../bootstrap-loader";
+@import "testimonial-common";
+.testimonial-block-style5 {
+  .testimonial-item {
+    .testi-info {
+      display: flex;
+      position: relative;
+      align-items: center;
+      margin-bottom: 20px;
+      .icon {
+        font-size: 40px;
+        line-height: 1;
+        margin-right: 15px;
+      }
+      .testimonial-position {
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 10px;
+      }
+    }
+    .author-text {
+      font-size: 22px;
+      line-height: 30px;
+      @include media-breakpoint-down(sm) {
+        font-size: 18px;
+      }
+    }
+  }
+}

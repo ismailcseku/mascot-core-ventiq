@@ -1,0 +1,25 @@
+<?php $features_item['settings'] = $settings; ?>
+<?php
+$features_item['title_tag'] = $title_tag;
+$features_item['subtitle_tag'] = $subtitle_tag;
+
+$features_link = $features_item['features_link'];
+$target = ( $features_link && $features_link['is_external'] ) ? ' target="_blank"' : '';
+$url = ( $features_link && $features_link['url'] ) ? $features_link['url'] : '';
+?>
+
+<div class="features-block-style8">
+	<div class="icon">
+		<?php mascot_core_ventiq_get_shortcode_template_part( 'icon-type', $features_item['icon_type'], 'features-block/tpl', $features_item, false );?>
+	</div>
+	<div class="content">
+		<?php mascot_core_ventiq_get_shortcode_template_part( 'part-title', null, 'features-block/tpl', $features_item, false );?>
+		<?php mascot_core_ventiq_get_shortcode_template_part( 'part-content', null, 'features-block/tpl', $features_item, false );?>
+
+		<?php if ( $show_view_details_button == 'yes' ) : ?>
+			<a href="<?php echo esc_url( $url );?>" class="text-btn">
+				<?php echo esc_html( $settings['view_details_button_text']  ); ?>
+			</a>
+		<?php endif; ?>
+	</div>
+</div>

@@ -1,0 +1,89 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  right: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .features-block-style8 {
+    margin-top: 30px;
+  }
+}
+.features-block-style8 .icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: linear-gradient(-99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+  text-align: center;
+  border-radius: 50%;
+}
+.features-block-style8 .icon i {
+  font-size: 45px;
+  color: var(--theme-color-white);
+  transition: all 900ms ease;
+}
+[data-tm-layout=dark] .features-block-style8 .icon i {
+  color: #fff;
+}
+.features-block-style8 .icon img,
+.features-block-style8 .icon svg {
+  transition: all 900ms ease;
+}
+.features-block-style8 .content {
+  margin-top: 25px;
+}
+.features-block-style8 .content .features-title {
+  color: var(--theme-color-white);
+  margin-bottom: 10px;
+}
+.features-block-style8 .content .features-title a {
+  background-position: 100% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  display: inline;
+}
+.features-block-style8 .content .features-title a:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(-180deg, var(--theme-color-white) 0%, var(--theme-color-white) 100%);
+}
+.features-block-style8 .content .features-details {
+  color: var(--theme-color-white);
+}
+.features-block-style8 .content .text-btn {
+  color: var(--theme-color-white);
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 20px;
+}
+[data-tm-layout=dark] .features-block-style8 .content .text-btn {
+  color: #fff;
+}
+.features-block-style8:hover .icon i {
+  transform: rotateY(-360deg);
+}
+.features-block-style8:hover .icon img,
+.features-block-style8:hover .icon svg {
+  transform: rotateY(-360deg);
+}

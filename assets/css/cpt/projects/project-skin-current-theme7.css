@@ -1,0 +1,108 @@
+.tm-sc-projects .cat-list {
+  list-style: none;
+  margin: 0;
+}
+.tm-sc-projects .cat-list li {
+  display: inline;
+  color: #aaa;
+  margin-right: 7px;
+  font-size: 13px;
+}
+.tm-sc-projects .cat-list li a {
+  color: #aaa;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+.tm-sc-projects .cat-list li:last-child span {
+  display: none;
+}
+
+.projects-current-theme7 .inner-box {
+  max-width: 743px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 50px 32px;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+.projects-current-theme7 .inner-box:after {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.25);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.projects-current-theme7 .inner-box:hover .content .icon {
+  background: var(--gradient-1);
+  background-size: 200%;
+  color: #fff;
+  transform: rotateY(360deg);
+}
+.projects-current-theme7 .inner-box:hover .content .icon:hover {
+  background-position: 100% 0;
+}
+.projects-current-theme7 .inner-box .title {
+  position: relative;
+  z-index: 1;
+  line-height: 40px;
+  color: #fff;
+  transition: all 300ms ease;
+}
+[data-tm-layout=dark] .projects-current-theme7 .inner-box .title {
+  color: #ffffff;
+}
+@media (max-width: 991.98px) {
+  .projects-current-theme7 .inner-box .title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+.projects-current-theme7 .inner-box .title a:hover,
+.projects-current-theme7 .inner-box .title a:focus {
+  color: #fff;
+}
+.projects-current-theme7 .inner-box .content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+.projects-current-theme7 .inner-box .content .count {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 98.4px;
+  color: #fff;
+}
+[data-tm-layout=dark] .projects-current-theme7 .inner-box .content .count {
+  color: #ffffff;
+}
+.projects-current-theme7 .inner-box .content .count:after {
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter, decimal-leading-zero);
+}
+.projects-current-theme7 .inner-box .content .icon {
+  position: relative;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  transform: rotateX(0deg);
+  color: var(--headings-color);
+  background: #fff;
+  transition: all 800ms ease;
+}
+[data-tm-layout=dark] .projects-current-theme7 .inner-box .content .icon {
+  color: #ffffff;
+}

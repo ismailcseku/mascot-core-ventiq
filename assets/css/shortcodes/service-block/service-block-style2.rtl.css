@@ -1,0 +1,101 @@
+.tm-sc-service .icon {
+  display: inline-block;
+}
+.tm-sc-service .icon,
+.tm-sc-service .feature-title,
+.tm-sc-service .feature-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.service-block-style2 {
+  background: var(--theme-color2);
+}
+.service-block-style2 .business-image {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
+}
+.service-block-style2 .business-image .service-featured-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.service-block-style2 .business-image .business-layer-wrapper {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: 0.5s;
+}
+.service-block-style2 .business-image .business-layer-wrapper .service-featured-two-img {
+  width: 25%;
+  height: 100%;
+  transition: 0.5s;
+  background-size: cover;
+  position: relative;
+}
+.service-block-style2 .business-image .business-layer-wrapper .service-featured-two-img:nth-child(1) {
+  background-position: 100%;
+  transition-delay: 0;
+}
+.service-block-style2 .business-image .business-layer-wrapper .service-featured-two-img:nth-child(2) {
+  background-position: 66.67%;
+  transition-delay: 0.1s;
+}
+.service-block-style2 .business-image .business-layer-wrapper .service-featured-two-img:nth-child(3) {
+  background-position: 33.34%;
+  transition-delay: 0.2s;
+}
+.service-block-style2 .business-image .business-layer-wrapper .service-featured-two-img:nth-child(4) {
+  background-position: 0%;
+  transition-delay: 0.3s;
+}
+.service-block-style2 .content {
+  padding: 40px 60px;
+  position: relative;
+  z-index: 9;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 40px;
+  margin-bottom: -35px;
+}
+@media (max-width: 1199.98px) {
+  .service-block-style2 .content {
+    padding: 40px 35px;
+    margin-bottom: -64px;
+  }
+}
+.service-block-style2 .content .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  background: linear-gradient(-126deg, var(--theme-color3) 11.31%, var(--theme-color4) 93.61%);
+  margin-top: 31px;
+}
+@media (max-width: 1199.98px) {
+  .service-block-style2 .content .icon {
+    margin-top: 20px;
+  }
+}
+.service-block-style2 .content .icon i {
+  font-size: 34px;
+  line-height: 70px;
+  color: #fff;
+}
+.service-block-style2 .content .service-title {
+  color: #fff;
+  margin-top: 0;
+}
+.service-block-style2 .content .service-details {
+  font-size: 18px;
+  color: #fff;
+}
+.service-block-style2:hover .business-image .business-layer-wrapper .service-featured-two-img {
+  transform: translateY(-100%);
+}

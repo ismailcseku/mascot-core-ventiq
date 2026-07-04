@@ -1,0 +1,181 @@
+@import "../../bootstrap-loader";
+
+.pricing-plan-skin-style2 {
+  @include transition(all 0.3s ease);
+  &:hover {
+    transform: translateY(-10px);
+    .pricing-plan-thumb {
+      animation: spin 5s linear infinite;
+    }
+  }
+  .popular {
+    background: var(--gradient-1);
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 0 0;
+    font-weight: 700;
+    color: var(--theme-color-white);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: -25px;
+  }
+  .inner-box {
+    background-color: var(--theme-color-white);
+    padding: 45px;
+    border: 1px solid #0017261a;
+    border-radius: 20px;
+    padding-top: 55px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 10px 37px 0px #0000000f;
+    @include media-breakpoint-down(sm) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .pricing-plan-thumb {
+      position: absolute;
+      top: 40px;
+      right: 14px;
+      z-index: -1;
+    }
+    .top {
+      .pricing-plan-title {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: var(--theme-color1);
+        color: var(--theme-color1-text-color);
+        padding: 10px 20px;
+        line-height: 1;
+        border-radius: 7px;
+        margin-bottom: 10px;
+      }
+      .pricing-plan-subtitle {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px;
+        color: #4b5563;
+      }
+    }
+
+    .features-list {
+      padding: 35px 0;
+      padding-left: 15px;
+      margin-bottom: 0;
+      margin-bottom: 5px;
+      li {
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 500;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        color: var(--theme-color2);
+        &::after {
+          position: absolute;
+          top: 5px;
+          left: -15px;
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background-color: var(--theme-color1);
+          [data-tm-layout="dark"] & {
+            background-color: #fff;
+          }
+          content: "";
+        }
+        &:not(:last-child) {
+          margin-bottom: 25px;
+        }
+        &:nth-last-child(1),
+        &:nth-last-child(2) {
+        }
+      }
+      .no-action {
+        color: #d9dcdf;
+      }
+    }
+    .bottom {
+      border-top: 1px solid #0017261a;
+      padding-top: 10px;
+      .pricing-plan-title {
+        font-size: 48px;
+        font-weight: 700;
+        span {
+          color: #4b5563;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .pricing-plan-subtitle {
+        color: #4b5563;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        margin-top: 10px;
+      }
+      .footer-hint-text {
+        color: #4b5563;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        margin-top: 10px;
+      }
+    }
+    .btn-view-details {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .btn-one-rounded {
+      color: var(--theme-color5);
+      width: 100%;
+    }
+    .btn-one-light {
+      border: 1px solid rgba(36, 37, 73, 0.102);
+      width: 100%;
+    }
+    .price {
+      .pricing-plan-prefix {
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--theme-color2);
+        [data-tm-layout="dark"] & {
+          color: #fff;
+        }
+      }
+      .pricing-plan-price {
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--theme-color2);
+        [data-tm-layout="dark"] & {
+          color: #fff;
+        }
+      }
+      .pricing-plan-separator {
+        color: #646464;
+        [data-tm-layout="dark"] & {
+          color: #fff;
+        }
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .pricing-plan-postfix {
+        color: #646464;
+        [data-tm-layout="dark"] & {
+          color: #fff;
+        }
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.pricing-plan-skin-style2.pricing-active {
+  .inner-box {
+    .btn-view-details {
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+}

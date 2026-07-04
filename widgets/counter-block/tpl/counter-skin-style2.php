@@ -1,0 +1,21 @@
+<!-- Counter block-->
+<?php $settings['settings'] = $settings;?>
+<?php
+$animation = "";
+$animation_delay = "";
+if(isset($wow_appear_animation) && !empty($wow_appear_animation)) {
+	$animation = $wow_appear_animation;
+}
+if(isset($wow_animation_delay) && !empty($wow_animation_delay)) {
+	$animation_delay = $wow_animation_delay . 'ms';
+}
+?>
+
+<div class="counter-block-style2 mascot-counter <?php echo esc_attr($animation);?>" data-wow-delay="<?php echo esc_attr($animation_delay);?>">
+	<?php if ( $show_counter == 'yes' ): ?>
+		<?php mascot_core_ventiq_get_shortcode_template_part( 'counter', null, 'counter-block/tpl', $settings, false );?>
+	<?php endif;?>
+	<?php if ( $show_title == 'yes' ): ?>
+		<?php mascot_core_ventiq_get_shortcode_template_part( 'title', null, 'counter-block/tpl', $settings, false );?>
+	<?php endif;?>
+</div>

@@ -1,0 +1,109 @@
+.tm-sc-features .icon {
+  display: inline-block;
+}
+.tm-sc-features .icon,
+.tm-sc-features .features-title,
+.tm-sc-features .features-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.feature-side-line {
+  position: relative;
+}
+.feature-side-line .icon-box-wrapper:after {
+  content: "";
+  background: #333;
+  width: 2px;
+  position: absolute;
+  right: 25px;
+  top: 60px;
+  bottom: -12px;
+}
+@media (max-width: 575.98px) {
+  .feature-side-line .icon-box-wrapper:after {
+    display: none;
+  }
+}
+
+.features-block-style9 {
+  position: relative;
+  padding: 40px;
+  position: relative;
+  border-radius: 30px;
+  background: var(--theme-color-white);
+  padding: 30px;
+}
+.features-block-style9 .service-icon {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.features-block-style9 .service-icon i {
+  font-size: 70px;
+  line-height: 70px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  transition: all 900ms ease;
+}
+.features-block-style9 .service-icon i svg {
+  transition: all 900ms ease;
+}
+.features-block-style9 .service-icon .features-count {
+  color: rgba(102, 102, 102, 0.15);
+  font-family: var(--heading-font-family);
+  font-size: 80px;
+  font-weight: 600;
+  top: -5px;
+  left: 30px;
+  position: absolute;
+  transition: all 900ms ease;
+}
+[data-tm-layout=dark] .features-block-style9 .service-icon .features-count {
+  color: #fff;
+}
+.features-block-style9 .content {
+  margin-top: 160px;
+}
+@media (max-width: 1199.98px) {
+  .features-block-style9 .content {
+    margin-top: 30px;
+  }
+}
+.features-block-style9 .content h3 {
+  margin-bottom: 10px;
+}
+.features-block-style9 .content h3 a {
+  background-position: 100% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  display: inline;
+}
+.features-block-style9 .content h3 a:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(-180deg, var(--headings-color) 0%, var(--headings-color) 100%);
+}
+.features-block-style9 .content p {
+  line-height: 218%;
+}
+@media (max-width: 1199.98px) {
+  .features-block-style9 .content p br {
+    display: none;
+  }
+}
+.features-block-style9:hover .service-icon i {
+  color: var(--theme-color1);
+  transform: rotateY(-360deg);
+}
+[data-tm-layout=dark] .features-block-style9:hover .service-icon i {
+  color: #fff;
+}
+.features-block-style9:hover .service-icon i svg {
+  transform: rotateY(-360deg);
+}
+.features-block-style9:hover .service-icon i svg path {
+  fill: var(--theme-color1);
+}
+.features-block-style9:hover .service-icon .features-count {
+  color: var(--headings-color);
+}

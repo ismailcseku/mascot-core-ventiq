@@ -1,0 +1,98 @@
+.features-block-style1 {
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 50px;
+  padding-bottom: 30px;
+}
+@media (max-width: 1199.98px) {
+  .features-block-style1 {
+    padding: 35px;
+  }
+}
+@media (max-width: 991.98px) {
+  .features-block-style1 {
+    padding: 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  .features-block-style1 {
+    padding: 25px;
+  }
+}
+.features-block-style1 .icon {
+  width: 68px;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  background: linear-gradient(-99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+}
+.features-block-style1 .icon svg path {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  animation: draw 3s forwards ease-in-out;
+}
+.features-block-style1 .icon i {
+  font-size: 30px;
+  line-height: 68px;
+  color: #fff;
+}
+.features-block-style1 .content {
+  margin-top: 35px;
+}
+.features-block-style1 .content .features-title {
+  color: #fff;
+  background-position: 100% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  display: inline;
+  transition: all 200ms ease;
+}
+.features-block-style1 .content .features-title:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(-180deg, #fff 0%, #fff 100%);
+  transition: all 200ms ease;
+}
+.features-block-style1 .content .features-title a {
+  color: #fff;
+  background-position: 100% 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  display: inline;
+  transition: all 200ms ease;
+}
+.features-block-style1 .content .features-title a:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(-180deg, #fff 0%, #fff 100%);
+  transition: all 200ms ease;
+}
+.features-block-style1 .content .features-details {
+  color: #c4c4c4;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.features-block-style1 .content .link-btn {
+  transform: rotate(45deg);
+  display: inline-block;
+  line-height: 1;
+  font-size: 30px;
+  color: #fff;
+  transition: all 200ms ease;
+}
+.features-block-style1 .content .link-btn:hover {
+  transform: rotate(0);
+  transition: all 200ms ease;
+}
+.features-block-style1:hover .icon svg path {
+  animation: draw2 3s forwards ease-in-out;
+}
+.features-block-style1:hover .icon {
+  background-position: 0% 0;
+}
+.features-block-style1:hover .icon i {
+  -webkit-transform: rotateY(-360deg);
+  -moz-transform: rotateY(-360deg);
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
+}

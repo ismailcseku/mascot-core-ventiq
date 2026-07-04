@@ -1,0 +1,170 @@
+.pricing-plan-skin-style2 {
+  transition: all 0.3s ease;
+}
+.pricing-plan-skin-style2:hover {
+  transform: translateY(-10px);
+}
+.pricing-plan-skin-style2:hover .pricing-plan-thumb {
+  animation: spin 5s linear infinite;
+}
+.pricing-plan-skin-style2 .popular {
+  background: var(--gradient-1);
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 20px 20px 0 0;
+  font-weight: 700;
+  color: var(--theme-color-white);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: -25px;
+}
+.pricing-plan-skin-style2 .inner-box {
+  background-color: var(--theme-color-white);
+  padding: 45px;
+  border: 1px solid rgba(0, 23, 38, 0.1019607843);
+  border-radius: 20px;
+  padding-top: 55px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 10px 37px 0px rgba(0, 0, 0, 0.0588235294);
+}
+@media (max-width: 575.98px) {
+  .pricing-plan-skin-style2 .inner-box {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.pricing-plan-skin-style2 .inner-box .pricing-plan-thumb {
+  position: absolute;
+  top: 40px;
+  left: 14px;
+  z-index: -1;
+}
+.pricing-plan-skin-style2 .inner-box .top .pricing-plan-title {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--theme-color1);
+  color: var(--theme-color1-text-color);
+  padding: 10px 20px;
+  line-height: 1;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.pricing-plan-skin-style2 .inner-box .top .pricing-plan-subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 5px;
+  color: #4b5563;
+}
+.pricing-plan-skin-style2 .inner-box .features-list {
+  padding: 35px 0;
+  padding-right: 15px;
+  margin-bottom: 0;
+  margin-bottom: 5px;
+}
+.pricing-plan-skin-style2 .inner-box .features-list li {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  color: var(--theme-color2);
+}
+.pricing-plan-skin-style2 .inner-box .features-list li::after {
+  position: absolute;
+  top: 5px;
+  right: -15px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--theme-color1);
+  content: "";
+}
+[data-tm-layout=dark] .pricing-plan-skin-style2 .inner-box .features-list li::after {
+  background-color: #fff;
+}
+.pricing-plan-skin-style2 .inner-box .features-list li:not(:last-child) {
+  margin-bottom: 25px;
+}
+.pricing-plan-skin-style2 .inner-box .features-list .no-action {
+  color: #d9dcdf;
+}
+.pricing-plan-skin-style2 .inner-box .bottom {
+  border-top: 1px solid rgba(0, 23, 38, 0.1019607843);
+  padding-top: 10px;
+}
+.pricing-plan-skin-style2 .inner-box .bottom .pricing-plan-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.pricing-plan-skin-style2 .inner-box .bottom .pricing-plan-title span {
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 400;
+}
+.pricing-plan-skin-style2 .inner-box .bottom .pricing-plan-subtitle {
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 10px;
+}
+.pricing-plan-skin-style2 .inner-box .bottom .footer-hint-text {
+  color: #4b5563;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 10px;
+}
+.pricing-plan-skin-style2 .inner-box .btn-view-details {
+  margin-top: 40px;
+  text-align: center;
+}
+.pricing-plan-skin-style2 .inner-box .btn-one-rounded {
+  color: var(--theme-color5);
+  width: 100%;
+}
+.pricing-plan-skin-style2 .inner-box .btn-one-light {
+  border: 1px solid rgba(36, 37, 73, 0.102);
+  width: 100%;
+}
+.pricing-plan-skin-style2 .inner-box .price .pricing-plan-prefix {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--theme-color2);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style2 .inner-box .price .pricing-plan-prefix {
+  color: #fff;
+}
+.pricing-plan-skin-style2 .inner-box .price .pricing-plan-price {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--theme-color2);
+}
+[data-tm-layout=dark] .pricing-plan-skin-style2 .inner-box .price .pricing-plan-price {
+  color: #fff;
+}
+.pricing-plan-skin-style2 .inner-box .price .pricing-plan-separator {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 400;
+}
+[data-tm-layout=dark] .pricing-plan-skin-style2 .inner-box .price .pricing-plan-separator {
+  color: #fff;
+}
+.pricing-plan-skin-style2 .inner-box .price .pricing-plan-postfix {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 400;
+}
+[data-tm-layout=dark] .pricing-plan-skin-style2 .inner-box .price .pricing-plan-postfix {
+  color: #fff;
+}
+
+.pricing-plan-skin-style2.pricing-active .inner-box .btn-view-details {
+  margin-top: 40px;
+  text-align: center;
+}

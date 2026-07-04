@@ -1,0 +1,18 @@
+@import "../../bootstrap-loader";
+
+.counter-block-style3 {
+  .counter {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--theme-color3);
+    color: transparent;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 120px;
+  }
+  .title {
+    color: var(--theme-color-white);
+    margin: 0;
+  }
+}

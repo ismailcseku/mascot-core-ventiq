@@ -1,0 +1,45 @@
+/*Btn Style 8*/
+.btn-style8 {
+  align-items: center;
+  background-color: var(--theme-color1);
+  color: var(--theme-color1-text-color);
+  border-radius: 30px;
+  display: inline-flex;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 400ms ease;
+  z-index: 0;
+}
+.btn-style8 .btn-title {
+  color: var(--theme-color1-text-color);
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0px 26px 0 70px;
+  transition: all 400ms ease;
+}
+.btn-style8 .left-arrow {
+  background-color: #fff;
+  border-radius: 50%;
+  color: var(--theme-color2);
+  font-size: 10px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  left: 10px;
+  transition: all 400ms ease;
+}
+.btn-style8:hover {
+  background-color: var(--theme-color2);
+  color: var(--theme-color2-text-color);
+}
+.btn-style8:hover .btn-title {
+  color: #fff;
+}
+.btn-style8:hover .left-arrow {
+  background-color: var(--theme-color1);
+  color: var(--theme-color1-text-color);
+}

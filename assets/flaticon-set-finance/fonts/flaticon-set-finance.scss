@@ -1,0 +1,181 @@
+$flaticon_ventiq-font: "flaticon_ventiq";
+
+@font-face {
+    font-family: $flaticon_ventiq-font;
+    src: url("./flaticon_ventiq.woff2?17977532c16ab389385c83b3d54d6246") format("woff2"),
+url("./flaticon_ventiq.woff?17977532c16ab389385c83b3d54d6246") format("woff"),
+url("./flaticon_ventiq.eot?17977532c16ab389385c83b3d54d6246#iefix") format("embedded-opentype"),
+url("./flaticon_ventiq.ttf?17977532c16ab389385c83b3d54d6246") format("truetype"),
+url("./flaticon_ventiq.svg?17977532c16ab389385c83b3d54d6246#flaticon_ventiq") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ventiq !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_ventiq-map: (
+    "digital-marketing": "\f101",
+    "social-media": "\f102",
+    "social-media-marketing": "\f103",
+    "channel": "\f104",
+    "writer": "\f105",
+    "digital-campaign": "\f106",
+    "social-media-marketing-1": "\f107",
+    "targeted": "\f108",
+    "target-audience": "\f109",
+    "data-visualization": "\f10a",
+    "portfolio": "\f10b",
+    "pie-chart": "\f10c",
+    "networking": "\f10d",
+    "growth": "\f10e",
+    "credit-card": "\f10f",
+    "briefcase": "\f110",
+    "wallet": "\f111",
+    "targeting": "\f112",
+    "microchip": "\f113",
+    "link": "\f114",
+    "meeting": "\f115",
+    "licensing": "\f116",
+    "rocket": "\f117",
+    "abstract-shape": "\f118",
+    "shape-design": "\f119",
+    "shape-design-1": "\f11a",
+    "pattern": "\f11b",
+    "interview": "\f11c",
+    "discussion": "\f11d",
+    "trophy": "\f11e",
+    "spending-money": "\f11f",
+    "tracking": "\f120",
+    "design-thinking": "\f121",
+    "innovation": "\f122",
+    "metaverse": "\f123",
+    "circuit": "\f124",
+    "abstract": "\f125",
+    "shape-design-2": "\f126",
+    "touch": "\f127",
+);
+
+.flaticon-digital-marketing:before {
+    content: map-get($flaticon_ventiq-map, "digital-marketing");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon_ventiq-map, "social-media");
+}
+.flaticon-social-media-marketing:before {
+    content: map-get($flaticon_ventiq-map, "social-media-marketing");
+}
+.flaticon-channel:before {
+    content: map-get($flaticon_ventiq-map, "channel");
+}
+.flaticon-writer:before {
+    content: map-get($flaticon_ventiq-map, "writer");
+}
+.flaticon-digital-campaign:before {
+    content: map-get($flaticon_ventiq-map, "digital-campaign");
+}
+.flaticon-social-media-marketing-1:before {
+    content: map-get($flaticon_ventiq-map, "social-media-marketing-1");
+}
+.flaticon-targeted:before {
+    content: map-get($flaticon_ventiq-map, "targeted");
+}
+.flaticon-target-audience:before {
+    content: map-get($flaticon_ventiq-map, "target-audience");
+}
+.flaticon-data-visualization:before {
+    content: map-get($flaticon_ventiq-map, "data-visualization");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon_ventiq-map, "portfolio");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon_ventiq-map, "pie-chart");
+}
+.flaticon-networking:before {
+    content: map-get($flaticon_ventiq-map, "networking");
+}
+.flaticon-growth:before {
+    content: map-get($flaticon_ventiq-map, "growth");
+}
+.flaticon-credit-card:before {
+    content: map-get($flaticon_ventiq-map, "credit-card");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon_ventiq-map, "briefcase");
+}
+.flaticon-wallet:before {
+    content: map-get($flaticon_ventiq-map, "wallet");
+}
+.flaticon-targeting:before {
+    content: map-get($flaticon_ventiq-map, "targeting");
+}
+.flaticon-microchip:before {
+    content: map-get($flaticon_ventiq-map, "microchip");
+}
+.flaticon-link:before {
+    content: map-get($flaticon_ventiq-map, "link");
+}
+.flaticon-meeting:before {
+    content: map-get($flaticon_ventiq-map, "meeting");
+}
+.flaticon-licensing:before {
+    content: map-get($flaticon_ventiq-map, "licensing");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon_ventiq-map, "rocket");
+}
+.flaticon-abstract-shape:before {
+    content: map-get($flaticon_ventiq-map, "abstract-shape");
+}
+.flaticon-shape-design:before {
+    content: map-get($flaticon_ventiq-map, "shape-design");
+}
+.flaticon-shape-design-1:before {
+    content: map-get($flaticon_ventiq-map, "shape-design-1");
+}
+.flaticon-pattern:before {
+    content: map-get($flaticon_ventiq-map, "pattern");
+}
+.flaticon-interview:before {
+    content: map-get($flaticon_ventiq-map, "interview");
+}
+.flaticon-discussion:before {
+    content: map-get($flaticon_ventiq-map, "discussion");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_ventiq-map, "trophy");
+}
+.flaticon-spending-money:before {
+    content: map-get($flaticon_ventiq-map, "spending-money");
+}
+.flaticon-tracking:before {
+    content: map-get($flaticon_ventiq-map, "tracking");
+}
+.flaticon-design-thinking:before {
+    content: map-get($flaticon_ventiq-map, "design-thinking");
+}
+.flaticon-innovation:before {
+    content: map-get($flaticon_ventiq-map, "innovation");
+}
+.flaticon-metaverse:before {
+    content: map-get($flaticon_ventiq-map, "metaverse");
+}
+.flaticon-circuit:before {
+    content: map-get($flaticon_ventiq-map, "circuit");
+}
+.flaticon-abstract:before {
+    content: map-get($flaticon_ventiq-map, "abstract");
+}
+.flaticon-shape-design-2:before {
+    content: map-get($flaticon_ventiq-map, "shape-design-2");
+}
+.flaticon-touch:before {
+    content: map-get($flaticon_ventiq-map, "touch");
+}

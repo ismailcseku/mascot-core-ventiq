@@ -1,0 +1,42 @@
+@import "../../bootstrap-loader";
+@import "features-common";
+
+.features-block-style6 {
+  padding: 30px;
+  padding-bottom: 0;
+  border-right: 1px solid #d9d9d9;
+  [data-tm-layout="dark"] & {
+    border-color: #ffffff20;
+  }
+
+  .features-count {
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 66px;
+    margin-bottom: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--theme-color2);
+    [data-tm-layout="dark"] & {
+      color: #fff;
+    }
+    transition: all 300ms ease;
+  }
+
+  .features-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  &:hover {
+    .features-count {
+      color: var(--theme-color2);
+      [data-tm-layout="dark"] & {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.isotope-item:last-child .features-block-style6 {
+  border-right: none;
+}

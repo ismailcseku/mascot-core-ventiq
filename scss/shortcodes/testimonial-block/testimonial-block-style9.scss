@@ -1,0 +1,45 @@
+@import "../../bootstrap-loader";
+@import "testimonial-common";
+
+.testimonial-block-style9 {
+  .author-text {
+    font-size: 28px;
+    font-weight: 400;
+    color: #DDDDDD;
+    margin-bottom: 30px;
+    font-family: var(--heading-font-family);
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 1px solid #eeeeee24;
+    padding-top: 35px;
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+      align-items: start;
+    }
+    .title-area {
+      display: flex;
+      align-items: center;
+    }
+    .testimonial-name {
+      color: #fff;
+      margin-top: 0;
+      margin: 0 10px 0 0;
+    }
+    .testimonial-position {
+      font-weight: 500;
+      font-size: 16px;
+      color: #d9d9d9;
+      margin-bottom: 0;
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .author-text {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+}

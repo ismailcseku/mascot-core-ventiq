@@ -1,0 +1,73 @@
+@import "../../bootstrap-loader";
+@import "working-block-common";
+.working-block-style2 {
+  .work-item {
+    margin-bottom: 40px;
+    text-align: center;
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+    }
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+    .image {
+      @include radius(190px, 190px, 190px);
+      margin: 0 auto;
+      img {
+        border-radius: 100%;
+      }
+      position: relative;
+      z-index: 1;
+      .working-count {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        @include radius(50px, 50px, 50px);
+        font-size: 24px;
+        font-weight: 500;
+        font-family: var(--heading-font-family);
+        color: #fff;
+        background-color: #121c27;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        width: 102%;
+        height: 102%;
+        top: 0px;
+        left: -2px;
+        z-index: -1;
+        border: 2px dashed #121c27;
+        border-radius: 100%;
+        @include transition(all 300ms ease);
+        animation: rotate 30s linear infinite;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+    .content {
+      .working-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .working-details {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+    &:hover {
+      .image {
+        &::after {
+          opacity: 1;
+          visibility: visible;
+        }
+        .working-count {
+          animation: bounceIn 1s forwards;
+        }
+      }
+    }
+  }
+}

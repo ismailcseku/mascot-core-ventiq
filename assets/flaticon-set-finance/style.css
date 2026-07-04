@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "flaticon-set-finance";
+  src: url("fonts/flaticon-set-finance.eot");
+  src: url("fonts/flaticon-set-finance.eot?#iefix") format("embedded-opentype"), url("fonts/flaticon-set-finance.woff2") format("woff2"), url("fonts/flaticon-set-finance.woff") format("woff"), url("fonts/flaticon-set-finance.ttf") format("truetype"),
+    url("fonts/flaticon-set-finance.svg#flaticon-set-finance") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "flaticon-set-finance";
+    src: url("fonts/flaticon-set-finance.svg#flaticon-set-finance") format("svg");
+  }
+}
+
+[class^="flaticon-finance-"]:before,
+[class*=" flaticon-finance-"]:before,
+[class^="flaticon-finance-"]:after,
+[class*=" flaticon-finance-"]:after {
+  font-family: "flaticon-set-finance" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-finance-digital-marketing:before {
+  content: "\f101";
+}
+.flaticon-finance-social-media:before {
+  content: "\f102";
+}
+.flaticon-finance-social-media-marketing:before {
+  content: "\f103";
+}
+.flaticon-finance-channel:before {
+  content: "\f104";
+}
+.flaticon-finance-writer:before {
+  content: "\f105";
+}
+.flaticon-finance-digital-campaign:before {
+  content: "\f106";
+}
+.flaticon-finance-social-media-marketing-1:before {
+  content: "\f107";
+}
+.flaticon-finance-targeted:before {
+  content: "\f108";
+}
+.flaticon-finance-target-audience:before {
+  content: "\f109";
+}
+.flaticon-finance-data-visualization:before {
+  content: "\f10a";
+}
+.flaticon-finance-portfolio:before {
+  content: "\f10b";
+}
+.flaticon-finance-pie-chart:before {
+  content: "\f10c";
+}
+.flaticon-finance-networking:before {
+  content: "\f10d";
+}
+.flaticon-finance-growth:before {
+  content: "\f10e";
+}
+.flaticon-finance-credit-card:before {
+  content: "\f10f";
+}
+.flaticon-finance-briefcase:before {
+  content: "\f110";
+}
+.flaticon-finance-wallet:before {
+  content: "\f111";
+}
+.flaticon-finance-targeting:before {
+  content: "\f112";
+}
+.flaticon-finance-microchip:before {
+  content: "\f113";
+}
+.flaticon-finance-link:before {
+  content: "\f114";
+}
+.flaticon-finance-meeting:before {
+  content: "\f115";
+}
+.flaticon-finance-licensing:before {
+  content: "\f116";
+}
+.flaticon-finance-rocket:before {
+  content: "\f117";
+}
+.flaticon-finance-abstract-shape:before {
+  content: "\f118";
+}
+.flaticon-finance-shape-design:before {
+  content: "\f119";
+}
+.flaticon-finance-shape-design-1:before {
+  content: "\f11a";
+}
+.flaticon-finance-pattern:before {
+  content: "\f11b";
+}
+.flaticon-finance-interview:before {
+  content: "\f11c";
+}
+.flaticon-finance-discussion:before {
+  content: "\f11d";
+}
+.flaticon-finance-trophy:before {
+  content: "\f11e";
+}
+.flaticon-finance-spending-money:before {
+  content: "\f11f";
+}
+.flaticon-finance-tracking:before {
+  content: "\f120";
+}
+.flaticon-finance-design-thinking:before {
+  content: "\f121";
+}
+.flaticon-finance-innovation:before {
+  content: "\f122";
+}
+.flaticon-finance-metaverse:before {
+  content: "\f123";
+}
+.flaticon-finance-circuit:before {
+  content: "\f124";
+}
+.flaticon-finance-abstract:before {
+  content: "\f125";
+}
+.flaticon-finance-shape-design-2:before {
+  content: "\f126";
+}
+.flaticon-finance-touch:before {
+  content: "\f127";
+}

@@ -1,0 +1,93 @@
+.tm-sc-working .icon {
+  display: inline-block;
+}
+.tm-sc-working .icon,
+.tm-sc-working .working-title,
+.tm-sc-working .working-details {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.working-block-style3 .work-item {
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.working-block-style3 .work-item .icon {
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+  border-radius: 50%;
+  transition: var(--transition);
+  width: 105px;
+  height: 105px;
+  line-height: 105px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 300ms ease;
+  border-radius: 0;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1019607843);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+}
+.working-block-style3 .work-item .icon svg {
+  transition: all 500ms ease;
+}
+.working-block-style3 .work-item .icon .working-count {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  transition: var(--transition);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  transition: all 300ms ease;
+  color: #fff;
+  background-color: var(--theme-color1);
+  position: absolute;
+  font-size: 20px;
+  top: -16px;
+  right: -16px;
+}
+.working-block-style3 .work-item .working-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.working-block-style3 .work-item .line {
+  position: absolute;
+  right: -60%;
+  top: 40px;
+  z-index: -1;
+  background-image: url(../../../images/current-theme/steps-line.png);
+  width: 186px;
+  height: 14px;
+  background-repeat: no-repeat;
+  right: calc(0% - 100px);
+}
+@media (max-width: 1399.98px) {
+  .working-block-style3 .work-item .line {
+    display: none;
+  }
+}
+.working-block-style3 .work-item:hover .icon i {
+  transform: rotateY(360deg);
+}
+.working-block-style3 .work-item:hover .icon .working-count {
+  animation: bounceIn 1s forwards;
+}
+
+.working-block:last-child .working-block-style3 .work-item .line {
+  background-image: none;
+}

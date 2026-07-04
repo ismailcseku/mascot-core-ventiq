@@ -1,0 +1,1 @@
+<div class="working-count"><?php echo $count;?></div>

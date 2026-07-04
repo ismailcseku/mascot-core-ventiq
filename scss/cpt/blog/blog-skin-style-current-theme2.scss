@@ -1,0 +1,102 @@
+@import "../../bootstrap-loader";
+@import "blog-common";
+
+.blog-item-current-style2 {
+  .inner-box {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4.4px 20px -1px #1310220d;
+    background-color: var(--theme-color-white);
+    .image-box {
+      position: relative;
+      z-index: 1;
+      .image {
+        overflow: hidden;
+        border-radius: 5px;
+        img {
+          transition: all 500ms ease;
+        }
+      }
+      .post-single-meta {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 10px 25px;
+        border-left: 2px solid var(--theme-color2);
+        border-radius: 5px 0 0 5px;
+        background-color: var(--theme-color1);
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        a {
+          color: #fff;
+        }
+      }
+    }
+    .content-box {
+      padding: 30px;
+      padding-top: 20px;
+      .entry-meta {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          white-space: nowrap;
+          svg {
+            path {
+              transition: all 300ms ease;
+            }
+          }
+          a {
+            font-size: 14px;
+            color: #737588;
+            &:hover {
+              color: var(--theme-color1) !important;
+              [data-tm-layout="dark"] & {
+                color: var(--theme-color2) !important;
+              }
+            }
+          }
+        }
+      }
+      .entry-title {
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        a:hover,
+        a:focus {
+          color: #fff;
+        }
+      }
+      .btn-one-rounded {
+        min-width: 155px;
+        color: #101a29;
+        text-align: unset;
+      }
+    }
+    &:hover {
+      .image-box {
+        .image {
+          img {
+            transform: scale(1.1) rotate(-1deg);
+          }
+        }
+      }
+    }
+  }
+}
+.tm-sc-blog-carousel {
+  .swiper-slide {
+    .blog-item-current-style1 {
+      box-shadow: none;
+      .entry-content {
+        border: 1px solid #f3f4f7;
+        [data-tm-layout="dark"] & {
+          border-color: #1d1d1d;
+        }
+      }
+    }
+  }
+}

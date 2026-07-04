@@ -1,0 +1,126 @@
+@import "../../bootstrap-loader";
+@import "working-block-common";
+
+.working-block-style1 {
+  @include media-breakpoint-down(xl) {
+    margin-bottom: 40px !important;
+  }
+  .icon {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--theme-color2);
+    position: relative;
+    z-index: 1;
+    i {
+      transition: all 900ms ease;
+      font-size: 70px;
+      line-height: 180px;
+      color: var(--theme-color1);
+      transform: rotateY(0deg);
+    }
+    svg {
+      font-size: 84px;
+      line-height: 84px;
+      color: var(--theme-color2);
+      transition: all 900ms ease;
+      path {
+        transition: all 900ms ease;
+        font-size: 70px;
+        line-height: 180px;
+        fill: var(--theme-color1);
+      }
+    }
+    .working-count {
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: var(--theme-color-white);
+      position: absolute;
+      bottom: 10px;
+      right: -30px;
+      font-size: 22px;
+      font-weight: 700;
+      font-family: var(--title-font);
+      color: var(--headings-color);
+      box-shadow: 5px 5px 12px 0px #0000000d;
+    }
+  }
+  .working-title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .working-details {
+    padding: 0px 50px;
+    @include media-breakpoint-down(md) {
+      padding: 0px 0px;
+    }
+  }
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  @include media-breakpoint-down(lg) {
+    max-width: 100%;
+  }
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+  }
+  .line {
+    position: absolute;
+    right: -26%;
+    top: 75px;
+    z-index: -1;
+    @include media-breakpoint-down(xxl) {
+      display: none;
+    }
+    @include media-breakpoint-down(lg) {
+      &.item-middle {
+        display: none;
+      }
+    }
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+  &.active {
+    .icon {
+      background-color: var(--theme-color2);
+    }
+  }
+  &:hover {
+    .icon {
+      background-color: var(--theme-color1);
+      i,
+      svg {
+        transform: rotateY(360deg);
+        fill: #fff;
+        color: #fff;
+        path {
+          fill: #fff;
+        }
+      }
+      .working-count {
+        animation: bounceIn 1s forwards;
+      }
+    }
+  }
+}
+.isotope-item:nth-child(2) .working-block-style1 .icon {
+  background-color: var(--theme-color1);
+  i {
+    color: #fff;
+  }
+  svg {
+    path {
+      fill: #fff;
+    }
+  }
+}
+.isotope-item:last-child .working-block-style1 .line {
+  display: none;
+}

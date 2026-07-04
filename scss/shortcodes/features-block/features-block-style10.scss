@@ -1,0 +1,96 @@
+@import "../../bootstrap-loader";
+@import "features-common";
+.features-block-style10 {
+  margin-bottom: 30px;
+  &.active,
+  &:hover {
+    .inner-box {
+      &::before {
+        width: 100%;
+      }
+      .feature-icon {
+        i {
+          transform: rotateY(360deg);
+          color: #fff;
+        }
+        .svg-icon {
+          transform: rotateY(360deg);
+          path {
+            fill: #fff;
+            [data-tm-layout="dark"] & {
+              fill: #ffffff;
+            }
+          }
+        }
+      }
+      .content-box {
+        .features-title {
+          color: #fff;
+          a {
+            color: #fff;
+            [data-tm-layout="dark"] & {
+              color: var(--headings-color);
+            }
+          }
+        }
+        .features-details {
+          color: #fff;
+          [data-tm-layout="dark"] & {
+            color: var(--headings-color);
+          }
+        }
+      }
+    }
+  }
+  .inner-box {
+    position: relative;
+    padding: 25px;
+    z-index: 1;
+    border: 1px solid #dddddd;
+    transition: all 500ms ease;
+    [data-tm-layout="dark"] & {
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0px;
+      height: 100%;
+      content: "";
+      z-index: -1;
+      background-color: var(--theme-color2);
+      transition: all 500ms ease;
+    }
+    .feature-icon {
+      margin-bottom: 25px;
+      .svg-icon {
+        transition: all 500ms ease;
+      }
+      i {
+        display: inline-block;
+        transform: rotateY(0);
+        color: var(--headings-color);
+        font-size: 56px;
+        line-height: 1;
+        transition: all 900ms ease;
+        @include text-gradient;
+      }
+    }
+    .content-box {
+      .features-title {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        transition: all 500ms ease;
+        margin-top: 0;
+      }
+      .features-details {
+        line-height: 35px;
+        transition: all 500ms ease;
+      }
+    }
+  }
+}

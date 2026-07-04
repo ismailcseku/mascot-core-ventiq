@@ -1,0 +1,211 @@
+@import "../../bootstrap-loader";
+@import "service-common";
+
+.service-block-style3 {
+  .project-image {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    width: 100%;
+    .service-featured-img {
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 20px;
+      }
+    }
+
+    .project-layer-wrapper {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      transition: 0.5s;
+
+      .service-featured-two-img {
+        width: 25%;
+        height: 100%;
+        transition: 0.5s;
+        background-size: cover;
+        border-radius: 20px;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          content: "";
+          border-radius: 20px;
+          background: linear-gradient(180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color2) 100%);
+        }
+
+        &:nth-child(1) {
+          background-position: 0;
+          transition-delay: 0;
+
+          &::before {
+            border-bottom-right-radius: 20px !important;
+            border-bottom-left-radius: 20px !important;
+          }
+        }
+
+        &:nth-child(2) {
+          background-position: 33.33%;
+          transition-delay: 0.1s;
+          border-radius: 0 !important;
+
+          &::before {
+            border-radius: 0 !important;
+          }
+        }
+
+        &:nth-child(3) {
+          background-position: 66.66%;
+          transition-delay: 0.2s;
+          border-radius: 0 !important;
+
+          &::before {
+            border-radius: 0 !important;
+          }
+        }
+
+        &:nth-child(4) {
+          background-position: 100%;
+          transition-delay: 0.3s;
+        }
+      }
+    }
+
+    &::before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      content: "";
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color2) 100%);
+    }
+
+    .service-count {
+      font-size: 96px;
+      font-weight: 700;
+      color: transparent;
+      -webkit-text-stroke: 1px $white;
+      position: absolute;
+      bottom: 60px;
+      left: 60px;
+      @include media-breakpoint-down(sm) {
+        font-size: 70px;
+      }
+    }
+  }
+
+  .project-content {
+    padding: 25px;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 9;
+    @include media-breakpoint-down(sm) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    @include flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    position: relative;
+
+    .arrow-shape {
+      position: absolute;
+      top: 8%;
+      left: 50%;
+
+      @include media-breakpoint-down(max-lg) {
+        display: none;
+      }
+    }
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      content: "";
+      width: 100%;
+      height: 5px;
+      border-radius: 20px;
+      background: linear-gradient(90deg, #c8f169 0.58%, var(--theme-color4) 100%);
+    }
+
+    .service-title {
+      line-height: 1;
+
+      a {
+        color: var(--headings-color);
+        background-position: 0 95%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        display: inline;
+
+        &:hover {
+          background-size: 100% 2px;
+          background-image: linear-gradient(180deg, var(--headings-color) 0%, var(--headings-color) 100%);
+        }
+      }
+    }
+
+    .icon {
+      width: 70px;
+      height: 60px;
+      line-height: 70px;
+      display: inline-block;
+      border-radius: 10px;
+      background: var(--theme-color2);
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+      i {
+        font-size: 30px;
+        color: #fff;
+        transition: all 200ms ease;
+      }
+      svg {
+        transition: all 0.3s ease-in-out;
+      }
+
+      &:hover {
+        background: var(--gradient-1);
+
+        svg path {
+          fill: #fff;
+        }
+
+        svg {
+          transform: rotate(47deg);
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .project-image {
+      .project-layer-wrapper {
+        .service-featured-two-img {
+          transform: translateY(-100%);
+        }
+      }
+    }
+  }
+}

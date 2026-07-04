@@ -1,0 +1,87 @@
+@import "../../bootstrap-loader";
+@import "working-block-common";
+.working-block-style3 {
+  .work-item {
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    .icon {
+      @include radius(105px, 105px, 105px);
+      width: 105px;
+      height: 105px;
+      line-height: 105px;
+      text-align: center;
+      border-radius: 50%;
+      @include transition(all 300ms ease);
+      border-radius: 0;
+      margin: 0 auto;
+      background-color: #0000001a;
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 55px;
+      svg {
+        @include transition(all 500ms ease);
+      }
+      .working-count {
+        @include radius(32px, 32px, 32px);
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        @include transition(all 300ms ease);
+        color: #fff;
+        background-color: var(--theme-color1);
+        position: absolute;
+        font-size: 20px;
+        top: -16px;
+        right: -16px;
+      }
+    }
+    .working-title {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .line {
+      position: absolute;
+      right: -60%;
+      top: 40px;
+      z-index: -1;
+      background-image: url(../../../images/current-theme/steps-line.png);
+      width: 186px;
+      height: 14px;
+      background-repeat: no-repeat;
+      right: calc(0% - 100px);
+      @include media-breakpoint-down(xxl) {
+        display: none;
+      }
+    }
+    &:hover {
+      .icon {
+        i {
+          transform: rotateY(360deg);
+        }
+        .working-count {
+          animation: bounceIn 1s forwards;
+        }
+      }
+    }
+  }
+}
+
+.working-block {
+  &:last-child {
+    .working-block-style3 {
+      .work-item {
+        .line {
+          background-image: none;
+        }
+      }
+    }
+  }
+}

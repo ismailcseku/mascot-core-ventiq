@@ -1,0 +1,43 @@
+@import "../../bootstrap-loader";
+@import "features-common";
+
+.features-block-style5 {
+  .icon {
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    background: linear-gradient(99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+    border-radius: 50%;
+    i {
+      font-size: 40px;
+      color: var(--theme-color-white);
+      transition: all 900ms ease;
+    }
+    img,
+    svg {
+      transition: all 900ms ease;
+    }
+  }
+
+  .content {
+    margin-top: 20px;
+    .features-title {
+      color: var(--theme-color2);
+    }
+    .features-details {
+    }
+  }
+
+  &:hover {
+    .icon {
+      i {
+        transform: rotateY(360deg);
+      }
+      img,
+      svg {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+}

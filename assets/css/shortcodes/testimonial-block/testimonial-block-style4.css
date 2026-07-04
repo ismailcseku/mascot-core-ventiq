@@ -1,0 +1,101 @@
+.tm-sc-testimonials .star-rating {
+  float: right;
+  overflow: hidden;
+  position: relative;
+  height: 1.1em;
+  line-height: 1.2;
+  font-size: 0.9em;
+  width: 5.6em;
+}
+.tm-sc-testimonials .star-rating::before {
+  content: "\f005\f005\f005\f005\f005";
+  color: #d3ced2;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.tm-sc-testimonials .star-rating span {
+  overflow: hidden;
+  float: left;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding-top: 1.5em;
+}
+.tm-sc-testimonials .star-rating span::before {
+  content: "\f005\f005\f005\f005\f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  color: #f1c40f;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+.tm-sc-testimonials .star-rating {
+  float: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  overflow: visible;
+}
+.tm-sc-testimonials .star-rating span:before {
+  color: var(--theme-color2);
+}
+.tm-sc-testimonials .author-text,
+.tm-sc-testimonials .name,
+.tm-sc-testimonials .job-position {
+  transition: all 0.3s ease-in-out;
+}
+.tm-sc-testimonials .star-rating span:before {
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonial-block-style4 {
+  background-color: #f5f5f5;
+  padding: 50px;
+  border-radius: 10px;
+}
+[data-tm-layout=dark] .testimonial-block-style4 {
+  background: #16202b;
+}
+@media (max-width: 991.98px) {
+  .testimonial-block-style4 {
+    padding: 30px;
+  }
+}
+.testimonial-block-style4 .testimonial-name {
+  margin: 0;
+}
+.testimonial-block-style4 .author-text {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.testimonial-block-style4 .coma {
+  font-size: 40px;
+  line-height: 1;
+}
+.testimonial-block-style4 .info-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.testimonial-block-style4 .info-box span {
+  font-size: 14px;
+}
+.testimonial-block-style4 .info-box img {
+  border-radius: 50%;
+  width: 45px;
+}
+.testimonial-block-style4 .ratting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.testimonial-block-style4 .ratting .star i {
+  color: #ffd700;
+}

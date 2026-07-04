@@ -1,0 +1,47 @@
+/*Btn Style 6*/
+.btn-style6 {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #171717;
+  border-radius: 30px;
+  color: var(--theme-color2);
+  display: inline-flex;
+  height: 56px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 400ms ease;
+  z-index: 0;
+}
+.btn-style6 .btn-title {
+  color: var(--theme-color2);
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0px 70px 0 26px;
+  transition: all 400ms ease;
+}
+.btn-style6 .left-arrow {
+  background-color: var(--theme-color1);
+  border-radius: 50%;
+  color: var(--theme-color1-text-color);
+  font-size: 10px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  right: 10px;
+  transition: all 400ms ease;
+}
+.btn-style6:hover {
+  background-color: var(--theme-color1);
+  color: #fff;
+  border: 1px solid transparent;
+}
+.btn-style6:hover .btn-title {
+  color: var(--theme-color1-text-color);
+}
+.btn-style6:hover .left-arrow {
+  background-color: #fff;
+  color: var(--theme-color2);
+}

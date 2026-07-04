@@ -1,0 +1,146 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+  font-family: "flaticon-set-finance";
+  src: url("./flaticon-set-finance.woff2?17977532c16ab389385c83b3d54d6246") format("woff2"), url("./flaticon-set-finance.woff?17977532c16ab389385c83b3d54d6246") format("woff"), url("./flaticon-set-finance.eot?17977532c16ab389385c83b3d54d6246#iefix") format("embedded-opentype"),
+    url("./flaticon-set-finance.ttf?17977532c16ab389385c83b3d54d6246") format("truetype"), url("./flaticon-set-finance.svg?17977532c16ab389385c83b3d54d6246#flaticon-set-finance") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+  font-family: flaticon-set-finance !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-digital-marketing:before {
+  content: "\f101";
+}
+.flaticon-social-media:before {
+  content: "\f102";
+}
+.flaticon-social-media-marketing:before {
+  content: "\f103";
+}
+.flaticon-channel:before {
+  content: "\f104";
+}
+.flaticon-writer:before {
+  content: "\f105";
+}
+.flaticon-digital-campaign:before {
+  content: "\f106";
+}
+.flaticon-social-media-marketing-1:before {
+  content: "\f107";
+}
+.flaticon-targeted:before {
+  content: "\f108";
+}
+.flaticon-target-audience:before {
+  content: "\f109";
+}
+.flaticon-data-visualization:before {
+  content: "\f10a";
+}
+.flaticon-portfolio:before {
+  content: "\f10b";
+}
+.flaticon-pie-chart:before {
+  content: "\f10c";
+}
+.flaticon-networking:before {
+  content: "\f10d";
+}
+.flaticon-growth:before {
+  content: "\f10e";
+}
+.flaticon-credit-card:before {
+  content: "\f10f";
+}
+.flaticon-briefcase:before {
+  content: "\f110";
+}
+.flaticon-wallet:before {
+  content: "\f111";
+}
+.flaticon-targeting:before {
+  content: "\f112";
+}
+.flaticon-microchip:before {
+  content: "\f113";
+}
+.flaticon-link:before {
+  content: "\f114";
+}
+.flaticon-meeting:before {
+  content: "\f115";
+}
+.flaticon-licensing:before {
+  content: "\f116";
+}
+.flaticon-rocket:before {
+  content: "\f117";
+}
+.flaticon-abstract-shape:before {
+  content: "\f118";
+}
+.flaticon-shape-design:before {
+  content: "\f119";
+}
+.flaticon-shape-design-1:before {
+  content: "\f11a";
+}
+.flaticon-pattern:before {
+  content: "\f11b";
+}
+.flaticon-interview:before {
+  content: "\f11c";
+}
+.flaticon-discussion:before {
+  content: "\f11d";
+}
+.flaticon-trophy:before {
+  content: "\f11e";
+}
+.flaticon-spending-money:before {
+  content: "\f11f";
+}
+.flaticon-tracking:before {
+  content: "\f120";
+}
+.flaticon-design-thinking:before {
+  content: "\f121";
+}
+.flaticon-innovation:before {
+  content: "\f122";
+}
+.flaticon-metaverse:before {
+  content: "\f123";
+}
+.flaticon-circuit:before {
+  content: "\f124";
+}
+.flaticon-abstract:before {
+  content: "\f125";
+}
+.flaticon-shape-design-2:before {
+  content: "\f126";
+}
+.flaticon-touch:before {
+  content: "\f127";
+}
