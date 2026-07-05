@@ -7,7 +7,7 @@
   [data-tm-layout="dark"] & {
     border-color: #ffffff30;
   }
-  padding: 30px 24px;
+  padding: 30px 30px 20px;
 
   .project-image {
     position: relative;
@@ -23,8 +23,8 @@
       height: 100%;
       width: 100%;
       content: "";
-      border-radius: 10px 10px 0px 0px;
-      background: linear-gradient(180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color2) 100%);
+      border-radius: 10px 10px 10px 0px;
+      background: linear-gradient(180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color3) 100%);
       z-index: 9;
     }
 
@@ -62,7 +62,7 @@
 
     .project-content {
       position: absolute;
-      bottom: 40px;
+      bottom: 30px;
       left: 40px;
       z-index: 9;
 
@@ -91,6 +91,9 @@
             background-image: linear-gradient(180deg, var(--theme-color-white) 0%, var(--theme-color-white) 100%);
           }
         }
+      }
+      .excerpt{
+        color: var(--theme-color-white);
       }
       .cat-list {
         margin-top: 5px;
@@ -177,6 +180,17 @@
         }
       }
     }
+     .shape-style1 {
+      content: "";
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      background-image: url(../../../images/current-theme/Vector.png);
+      opacity: 0.5;
+      width: 218px;
+      height: 233px;
+      @include transition(all 300ms ease);
+    }
   }
 
   .theme-btn {
@@ -198,9 +212,9 @@
       padding: 22px 22px;
       align-items: center;
       min-height: 60px;
-      border-radius: 0px 10px 10px 0px;
-      background: var(--theme-color3);
-      color: var(--theme-color1);
+      border-radius: 0px 10px 10px 10px;
+      background: var(--theme-color1);
+      color: var(--theme-color3);
       padding-right: 85px;
       position: relative;
       line-height: 1;
@@ -246,11 +260,23 @@
       height: 52px;
       line-height: 52px;
       border-radius: 10px;
-      background: var(--theme-color2);
+      background: var(--theme-color3);
+      color: var(--theme-color1);
       position: absolute;
       right: 4px;
       top: 4px;
       bottom: 4px;
+    }
+    &:hover {
+      .icon {
+        background: var(--theme-color1);
+        color: var(--theme-color3);
+        svg {
+          path {
+            fill: var(--theme-color3);
+          }
+        }
+      }
     }
   }
 

@@ -20,7 +20,7 @@
 .projects-current-theme2 {
   border-radius: 10px;
   border: 1px solid #ebebeb;
-  padding: 30px 24px;
+  padding: 30px 30px 20px;
 }
 [data-tm-layout=dark] .projects-current-theme2 {
   border-color: rgba(255, 255, 255, 0.1882352941);
@@ -39,8 +39,8 @@
   height: 100%;
   width: 100%;
   content: "";
-  border-radius: 10px 10px 0px 0px;
-  background: linear-gradient(-180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color2) 100%);
+  border-radius: 10px 10px 0px 10px;
+  background: linear-gradient(-180deg, rgba(20, 68, 67, 0) 0%, var(--theme-color3) 100%);
   z-index: 9;
 }
 .projects-current-theme2 .project-image img {
@@ -73,7 +73,7 @@
 }
 .projects-current-theme2 .project-image .project-content {
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   right: 40px;
   z-index: 9;
 }
@@ -101,6 +101,9 @@
 .projects-current-theme2 .project-image .project-content .title a:hover {
   background-size: 100% 2px;
   background-image: linear-gradient(-180deg, var(--theme-color-white) 0%, var(--theme-color-white) 100%);
+}
+.projects-current-theme2 .project-image .project-content .excerpt {
+  color: var(--theme-color-white);
 }
 .projects-current-theme2 .project-image .project-content .cat-list {
   margin-top: 5px;
@@ -172,6 +175,17 @@
   background-position: 0%;
   transition-delay: 0.3s;
 }
+.projects-current-theme2 .project-image .shape-style1 {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background-image: url(../../../images/current-theme/Vector.png);
+  opacity: 0.5;
+  width: 218px;
+  height: 233px;
+  transition: all 300ms ease;
+}
 .projects-current-theme2 .theme-btn {
   position: relative;
 }
@@ -192,9 +206,9 @@
   padding: 22px 22px;
   align-items: center;
   min-height: 60px;
-  border-radius: 10px 0px 0px 10px;
-  background: var(--theme-color3);
-  color: var(--theme-color1);
+  border-radius: 10px 0px 10px 10px;
+  background: var(--theme-color1);
+  color: var(--theme-color3);
   padding-left: 85px;
   position: relative;
   line-height: 1;
@@ -237,11 +251,19 @@
   height: 52px;
   line-height: 52px;
   border-radius: 10px;
-  background: var(--theme-color2);
+  background: var(--theme-color3);
+  color: var(--theme-color1);
   position: absolute;
   left: 4px;
   top: 4px;
   bottom: 4px;
+}
+.projects-current-theme2 .theme-btn:hover .icon {
+  background: var(--theme-color1);
+  color: var(--theme-color3);
+}
+.projects-current-theme2 .theme-btn:hover .icon svg path {
+  fill: var(--theme-color3);
 }
 .projects-current-theme2:hover .project-image img:nth-child(1) {
   transform: translatex(0) scalex(1);

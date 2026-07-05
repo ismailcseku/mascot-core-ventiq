@@ -6,12 +6,31 @@
 			<?php if ( $show_title == 'yes' ) : ?>
 				<<?php echo esc_attr( $title_tag );?> class="title"><a href="<?php the_permalink();?>" ><?php the_title();?></a></<?php echo esc_attr( $title_tag );?>>
 			<?php endif; ?>
+			<?php if ( $show_excerpt == 'yes' ) : ?>
+				<?php if ( empty($excerpt_length) ) { ?>
+					<?php $excerpt = get_the_excerpt(); ?>
+					<?php if ( !empty($excerpt) ) { ?>
+						<div class="excerpt">
+							<?php echo esc_html( strip_shortcodes( get_the_excerpt() ) )?>
+						</div>
+					<?php } ?>
+				<?php } else { ?>
+					<?php $excerpt = get_the_excerpt(); ?>
+					<?php if ( !empty($excerpt) ) { ?>
+						<div class="excerpt">
+							<?php echo esc_html( ventiq_slice_excerpt_by_length( $excerpt, $excerpt_length ) ); ?>
+						</div>
+					<?php } ?>
+				<?php } ?>
+			<?php endif; ?>
 			<?php if ( $show_cat == 'yes' ) : ?>
 				<ul class="cat-list">
 					<?php include('term-list-each-post.php'); ?>
 				</ul>
 			<?php endif; ?>
 		</div>
+		<div class="shape-style1">
+    	</div>
 	</div>
 	<?php if ( $show_view_details_button == 'yes' ) : ?>
 	<a href="<?php the_permalink();?>" class="theme-btn btn-style-one">
