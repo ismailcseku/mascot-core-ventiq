@@ -1,19 +1,20 @@
 <?php $settings['settings'] = $settings;?>
 <a  href="<?php echo esc_url( $button['url'] ); ?>"
-	<?php echo $target = $link['is_external'] ? ' target="_blank"' : '';?>
-	<?php echo $nofollow = $link['nofollow'] ? ' rel="nofollow"' : '';?>
-	class="btn-style2">
+		<?php echo $target = $link['is_external'] ? ' target="_blank"' : '';?>
+		<?php echo $nofollow = $link['nofollow'] ? ' rel="nofollow"' : '';?>
+		class="bg-white btn-style2">
 
-  <span class="btn-title">
+  <span class="theme-btn-arrow-left">
+		<i class="fas flaticon-common-right-arrow"></i>
+  </span>
+  <span class="theme-btn">
 		<?php
 			if( !empty( $button_text ) ) {
 				echo esc_html( $button_text );
 			}
 		?>
   </span>
-  <span class="icon">
-		<?php if( ! empty( $button_icon['value'] ) ) { ?>
-		  <?php \Elementor\Icons_Manager::render_icon( $button_icon ); ?>
-		<?php }?>
+  <span class="theme-btn-arrow-right">
+		<i class="fas flaticon-common-right-arrow"></i>
   </span>
 </a>
