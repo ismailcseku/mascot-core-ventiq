@@ -28,7 +28,7 @@
 .projects-current-theme2 .project-image {
   position: relative;
   overflow: hidden;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 10px;
 }
 .projects-current-theme2 .project-image::before {
   position: absolute;
