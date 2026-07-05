@@ -328,6 +328,15 @@ class TM_Elementor_ServiceBlock extends Widget_Base {
 				'separator' => 'before',
 			]
 		);
+		$repeater->add_control(
+			'service_list',
+			[
+				'label' => esc_html__("Service List", 'mascot-core-ventiq'),
+				'type' => \Elementor\Controls_Manager::TEXTAREA,
+				'default' => esc_html__("Write a short description, that will describe the title or something informational and useful.", 'mascot-core-ventiq'),
+				'separator' => 'before',
+			]
+		);
 		$repeater->add_responsive_control(
 			'item_margin',
 			[
