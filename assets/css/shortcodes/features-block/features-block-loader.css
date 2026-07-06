@@ -975,10 +975,10 @@
   transition: all 500ms ease;
 }
 .features-block-style10 .inner-box .feature-icon i {
-  display: inline-block;
+  display: flex;
   transform: rotateY(0);
   color: var(--theme-color3);
-  font-size: 28px;
+  font-size: 37px;
   line-height: 1;
   transition: all 900ms ease;
 }
