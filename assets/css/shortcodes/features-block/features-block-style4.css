@@ -29,12 +29,12 @@
 .features-block-style4 .benifit-image {
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .features-block-style4 .benifit-image img {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: all 400ms ease;
 }
 .features-block-style4 .benifit-image img {
@@ -59,23 +59,30 @@
   margin-top: 25px;
 }
 .features-block-style4 .benefit-content .features-title {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
-.features-block-style4 .benefit-content .arrow-icon {
-  margin-top: 20px;
+.features-block-style4 .benefit-content .text-btn {
+  margin-top: 10px;
   display: inline-block;
+  color: var(--theme-color3);
+  font-size: 14px;
+  font-weight: 600;
 }
-.features-block-style4 .benefit-content .arrow-icon i {
-  transform: rotate(-47deg);
-  font-size: 28px;
-  color: var(--theme-color2);
+.features-block-style4 .benefit-content .text-btn i {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+  color: var(--theme-color3);
+  margin-left: 8px;
   transition: all 0.2s ease-in-out;
 }
-.features-block-style4 .benefit-content .arrow-icon i::before {
+.features-block-style4 .benefit-content .text-btn i::before {
   content: "\f118";
   font-family: "FlaticonCommon" !important;
 }
-.features-block-style4 .benefit-content .arrow-icon:hover i {
+.features-block-style4 .benefit-content .text-btn:hover i {
+  color: var(--theme-color2);
   transform: rotate(0);
 }
 .features-block-style4:hover .benifit-image .features-featured-img:nth-child(1) img {

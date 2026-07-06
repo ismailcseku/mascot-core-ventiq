@@ -18,8 +18,9 @@ $url = ( $features_link && $features_link['url'] ) ? $features_link['url'] : '';
     <?php mascot_core_ventiq_get_shortcode_template_part( 'part-content', null, 'features-block/tpl', $features_item, false );?>
 
     <?php if ( $show_view_details_button == 'yes' ) : ?>
-    <a href="<?php echo esc_url( $url );?>" class="arrow-icon">
-      <i class="fa fa-arrow-right"></i>
+    <a href="<?php echo esc_url( $url );?>" class="text-btn">
+    <?php echo esc_html( $settings['view_details_button_text']  ); ?>
+      <i class="flaticon-common-right-arrow"></i>
     </a>
     <?php endif; ?>
 
