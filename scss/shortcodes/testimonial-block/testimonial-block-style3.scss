@@ -24,8 +24,8 @@
   }
   .box-shape {
     position: absolute;
-    bottom: 0;
-    left: 60px;
+    bottom: -15px;
+    left: 80px;
     z-index: 1;
     width: 156px;
     height: 166px;
@@ -38,8 +38,8 @@
   .client-item {
     text-align: center;
     position: relative;
-    padding: 60px 35px;
-    background-color: #144443;
+    padding: 60px 20px;
+    background-color: var(--theme-color3);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 100%;
@@ -64,7 +64,7 @@
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        border: 1px dashed var(--theme-color3);
+        border: 1px dashed var(--theme-color1);
       }
       img {
         border-radius: 50%;
@@ -95,12 +95,12 @@
     }
   }
   .content {
-    padding: 0 35px;
+    padding: 0 30px;
     @include media-breakpoint-down(xl) {
       padding: 0 30px 30px 30px;
     }
     .quote-icon {
-      background: var(--theme-color3);
+      background: var(--theme-color1);
       color: var(--headings-color);
       [data-tm-layout="dark"] & {
         color: var(--theme-color1);
@@ -125,7 +125,7 @@
         position: absolute;
         width: 0;
         height: 0;
-        border-left: 11px solid var(--theme-color1);
+        border-left: 11px solid rgba(155, 193, 68, 1);
         border-bottom: 11px solid transparent;
       }
     }
@@ -141,7 +141,7 @@
   }
   &.border-none {
     .client-item {
-      background: #144443;
+      background: var(--theme-color3);
     }
     border: none;
   }
@@ -150,12 +150,17 @@
   margin-top: 40px;
   font-weight: 600;
   margin-bottom: 10px;
+  width: calc(5.6em + 20px);
   color: #ffc65e !important;
+  &::before {
+      letter-spacing: 5px;
+    }
   @include media-breakpoint-down(xl) {
     display: inline-flex;
   }
   span::before {
     color: #ffc65e !important;
     font-weight: 600;
+    letter-spacing: 5px;
   }
 }
