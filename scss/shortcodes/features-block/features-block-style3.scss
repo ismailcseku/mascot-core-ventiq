@@ -11,12 +11,14 @@
     width: 65px;
     height: 65px;
     line-height: 65px;
-    background: linear-gradient(99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+    background: rgba(255, 255, 255, 0.1);
     text-align: center;
     border-radius: 50%;
     i {
       font-size: 40px;
-      color: var(--theme-color-white);
+      color: var(--theme-color1);
+      display: inline-block;
+      transform-origin: center;
       [data-tm-layout="dark"] & {
         color: #fff;
       }
@@ -24,12 +26,13 @@
     }
     img,
     svg {
+      display: block;
       transition: all 900ms ease;
     }
   }
 
   .content {
-    max-width: 310px;
+    max-width: 340px;
     margin-top: 30px;
 
     .features-title {
@@ -62,12 +65,16 @@
 
   &:hover {
     .icon {
+      background-color: var(--theme-color1);
       i {
+        color: var(--theme-color3);
         transform: rotateY(360deg);
+        transition: all 900ms ease;
       }
       img,
       svg {
         transform: rotateY(360deg);
+        transition: all 900ms ease;
       }
     }
   }
