@@ -11,7 +11,7 @@
       .feature-icon {
         i {
           transform: rotateY(360deg);
-          color: #fff;
+          color: var(--theme-color3);
         }
         .svg-icon {
           transform: rotateY(360deg);
@@ -44,13 +44,11 @@
   }
   .inner-box {
     position: relative;
-    padding: 25px;
+    padding: 30px 30px 20px;
     z-index: 1;
-    border: 1px solid #dddddd;
+    background-color: rgba(242, 245, 241, 1);
+    border-radius: 10px;
     transition: all 500ms ease;
-    [data-tm-layout="dark"] & {
-      border-color: rgba(255, 255, 255, 0.1);
-    }
     &::before {
       position: absolute;
       top: 0;
@@ -59,10 +57,18 @@
       height: 100%;
       content: "";
       z-index: -1;
-      background-color: var(--theme-color2);
+      border-radius: 10px;
+      background-color: var(--theme-color3);
       transition: all 500ms ease;
     }
     .feature-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 65px;
+      height: 65px;
+      border-radius: 100px;
+      background-color: rgba(200, 248, 169, 1);
       margin-bottom: 25px;
       .svg-icon {
         transition: all 500ms ease;
@@ -70,14 +76,14 @@
       i {
         display: inline-block;
         transform: rotateY(0);
-        color: var(--headings-color);
-        font-size: 56px;
+        color: var(--theme-color3);
+        font-size: 28px;
         line-height: 1;
         transition: all 900ms ease;
-        @include text-gradient;
       }
     }
     .content-box {
+      margin-top: 40px;
       .features-title {
         font-size: 24px;
         line-height: 30px;
