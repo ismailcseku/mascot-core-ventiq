@@ -68,7 +68,7 @@
   transform: translate(50%, -50%);
   width: 102px;
   height: 102px;
-  background-color: var(--theme-color3);
+  background-color: rgb(242, 245, 241);
   border-radius: 100%;
   z-index: -1;
 }
@@ -79,7 +79,7 @@
   left: -7px;
   width: 34px;
   height: 34px;
-  background-color: #fff;
+  background-color: var(--theme-color1);
   border-radius: 100%;
   z-index: -1;
 }
@@ -141,7 +141,7 @@
   margin-bottom: 0;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .features-list li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #646464;
   list-style: none;
@@ -150,11 +150,12 @@
   color: #fff;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .features-list li:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .features-list li i {
   margin-left: 10px;
-  color: var(--theme-color2);
+  font-size: 14px;
+  color: rgb(89, 91, 98);
 }
 [data-tm-layout=dark] .pricing-plan-skin-style3 .pricing-right-ber .features-list li i {
   color: #fff;
@@ -163,15 +164,15 @@
   position: relative;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one {
-  padding: 15px 30px;
+  padding: 13px 30px;
   align-items: center;
-  padding-left: 80px;
-  height: 60px;
+  padding-left: 62px;
+  height: 56px;
   overflow: hidden;
   z-index: 1;
   border-radius: 100px;
-  background: linear-gradient(-90deg, var(--theme-color3) 0%, var(--theme-color4) 100%);
-  color: var(--theme-color-white);
+  background: var(--theme-color1);
+  color: var(--theme-color3);
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one:before {
   position: absolute;
@@ -181,7 +182,7 @@
   width: 100%;
   content: "";
   background-color: var(--theme-color3);
-  color: var(--theme-color3-text-color);
+  color: var(--theme-color-white);
   transform: scale(1, 0);
   transform-origin: bottom right;
   transition: -webkit-transform 500ms cubic-bezier(0.86, 0, 0.07, 1);
@@ -199,31 +200,34 @@
   color: var(--theme-color1);
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one:hover {
-  color: var(--headings-color);
+  color: var(--theme-color-white);
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one:hover .icon {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
 }
 [data-tm-layout=dark] .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one:hover .icon {
   background-color: #fff;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn.btn-style-one:hover .icon svg path {
-  fill: var(--theme-color-white);
+  fill: var(--theme-color3);
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn .icon {
-  width: 52px;
-  height: 52px;
-  line-height: 52px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   border-radius: 50%;
   background-color: var(--theme-color3);
   position: absolute;
-  left: 4px;
-  top: 4px;
-  bottom: 4px;
+  left: 8px;
+  top: 8px;
+  bottom: 8px;
   text-align: center;
 }
 .pricing-plan-skin-style3 .pricing-right-ber .theme-btn .icon svg {
-  height: 17px;
+  height: 12px;
+}
+.pricing-plan-skin-style3 .pricing-right-ber .theme-btn .icon svg path {
+  fill: var(--theme-color-white);
 }
 .pricing-plan-skin-style3:hover .pricing-left-ber .pricing-icon img {
   transform: rotateY(-360deg);
