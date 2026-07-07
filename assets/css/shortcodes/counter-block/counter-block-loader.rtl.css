@@ -44,9 +44,13 @@
   width: 312px;
   height: 312px;
   border-radius: 320px;
-  border: 1px solid #d2d2d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 70px;
+  padding-bottom: 5px;
+  border: 1px solid #d2d2d2;
 }
 [data-tm-layout=dark] .counter-block-style2 {
   border-color: rgba(255, 255, 255, 0.1882352941);
@@ -89,8 +93,8 @@
 }
 .counter-block-style2 .counter {
   font-size: 96px;
-  font-weight: 400;
-  margin-bottom: 0;
+  font-weight: 500;
+  margin: 0;
 }
 @media (max-width: 1399.98px) {
   .counter-block-style2 .counter {
@@ -114,7 +118,7 @@
 }
 .counter-block-style2 .title {
   margin: 0 auto;
-  color: var(--theme-color2);
+  color: rgb(89, 91, 98);
 }
 
 .counter-block-style3 .counter {
