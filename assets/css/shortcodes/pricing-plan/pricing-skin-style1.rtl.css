@@ -1,5 +1,5 @@
 .pricing-plan-skin-style1:hover .inner-box, .pricing-plan-skin-style1.pricing-active .inner-box {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color3);
   position: relative;
   z-index: 1;
   transform: translateY(-10px);
@@ -54,8 +54,11 @@
 .pricing-plan-skin-style1:hover .inner-box .head .pricing-plan-thumb img, .pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-thumb img {
   filter: brightness(0) invert(1);
 }
+.pricing-plan-skin-style1:hover .inner-box .head i, .pricing-plan-skin-style1.pricing-active .inner-box .head i {
+  color: var(--theme-color1) !important;
+}
 .pricing-plan-skin-style1:hover .inner-box svg path, .pricing-plan-skin-style1.pricing-active .inner-box svg path {
-  fill: #fff;
+  fill: var(--theme-color1);
 }
 [data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box svg path, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
   fill: #fff;
@@ -65,6 +68,9 @@
 }
 .pricing-plan-skin-style1:hover .inner-box .features-list li, .pricing-plan-skin-style1.pricing-active .inner-box .features-list li {
   color: #fff;
+}
+.pricing-plan-skin-style1:hover .inner-box .features-list li.no-action i, .pricing-plan-skin-style1.pricing-active .inner-box .features-list li.no-action i {
+  color: rgba(255, 255, 255, 0.3) !important;
 }
 .pricing-plan-skin-style1:hover .inner-box .btn-view-details, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details {
   margin-top: 40px;
@@ -80,6 +86,12 @@
   .pricing-plan-skin-style1:hover .inner-box .btn-view-details a, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
     min-width: 150px;
   }
+}
+.pricing-plan-skin-style1:hover .inner-box .btn-view-details a:hover, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover {
+  color: var(--theme-color3);
+}
+.pricing-plan-skin-style1:hover .inner-box .btn-view-details a:hover:before, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover:before {
+  background-color: var(--theme-color1);
 }
 .pricing-plan-skin-style1 .inner-box {
   padding: 50px;
@@ -123,7 +135,7 @@
   border-bottom: 1px solid #e8eaf1;
 }
 .pricing-plan-skin-style1 .inner-box .head .icon {
-  color: #1a4137;
+  color: var(--theme-color3);
   font-size: 60px;
 }
 [data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .head .icon {
@@ -154,12 +166,16 @@
 [data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .features-list li i {
   color: #fff;
 }
+.pricing-plan-skin-style1 .inner-box .features-list li.no-action i {
+  color: rgba(20, 68, 67, 0.4) !important;
+}
 .pricing-plan-skin-style1 .inner-box .btn-view-details {
   margin-top: 40px;
   text-align: center;
 }
 .pricing-plan-skin-style1 .inner-box .btn-view-details a {
   width: 100% !important;
+  background-color: var(--theme-color1);
 }
 .pricing-plan-skin-style1 .inner-box .btn-view-details a:hover {
   color: var(--theme-color3);
@@ -169,18 +185,18 @@
 }
 
 .pricing-plan-skin-style1.pricing-active .inner-box {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color3);
   position: relative;
   z-index: 1;
 }
 .pricing-plan-skin-style1.pricing-active .inner-box .pricing-plan-label {
   text-transform: uppercase;
-  color: var(--theme-color2);
+  color: var(--theme-color3);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.3px;
   padding: 0px 55px;
-  background-color: var(--theme-color3);
+  background-color: var(--theme-color1);
   width: fit-content;
   position: absolute;
   top: 35px;
@@ -199,8 +215,11 @@
 .pricing-plan-skin-style1.pricing-active .inner-box .head .pricing-plan-thumb img {
   filter: brightness(0) invert(1);
 }
+.pricing-plan-skin-style1.pricing-active .inner-box .head i {
+  color: var(--theme-color1) !important;
+}
 .pricing-plan-skin-style1.pricing-active .inner-box svg path {
-  fill: var(--theme-color-white);
+  fill: var(--theme-color1);
 }
 [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
   fill: #fff;
@@ -211,12 +230,14 @@
 .pricing-plan-skin-style1.pricing-active .inner-box .features-list li {
   color: #fff;
 }
+.pricing-plan-skin-style1.pricing-active .inner-box .features-list li.no-action i {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
 .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details {
   margin-top: 40px;
   text-align: center;
 }
 .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
-  background-color: rgba(255, 255, 255, 0.1490196078);
   color: #fff;
   width: 100% !important;
   max-width: 310px;
@@ -225,4 +246,10 @@
   .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a {
     min-width: 150px;
   }
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover {
+  color: var(--theme-color3);
+}
+.pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover:before {
+  background-color: var(--theme-color1);
 }

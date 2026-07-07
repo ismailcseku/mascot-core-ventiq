@@ -4,7 +4,7 @@
   &:hover,
   &.pricing-active {
     .inner-box {
-      background-color: var(--theme-color2);
+      background-color: var(--theme-color3);
       position: relative;
       z-index: 1;
       transform: translateY(-10px);
@@ -61,10 +61,13 @@
             filter: brightness(0) invert(1);
           }
         }
+        i {
+          color: var(--theme-color1) !important;
+        }
       }
       svg {
         path {
-          fill: #fff;
+          fill: var(--theme-color1);
           [data-tm-layout="dark"] & {
             fill: #fff;
           }
@@ -76,6 +79,11 @@
       .features-list {
         li {
           color: #fff;
+          &.no-action {
+            i {
+              color: rgba(255, 255, 255, 0.3) !important;
+            }
+          }
         }
       }
       .btn-view-details {
@@ -88,6 +96,12 @@
           max-width: 310px;
           @include media-breakpoint-down(md) {
             min-width: 150px;
+          }
+          &:hover {
+            color: var(--theme-color3);
+          }
+          &:hover:before {
+            background-color: var(--theme-color1);
           }
         }
       }
@@ -131,7 +145,7 @@
     .head {
       margin: 0 auto;
       .icon {
-        color: #1a4137;
+        color: var(--theme-color3);
         font-size: 60px;
         [data-tm-layout="dark"] & {
           color: #fff;
@@ -163,6 +177,11 @@
             color: #fff;
           }
         }
+        &.no-action {
+          i {
+            color: rgba(20, 68, 67, 0.4) !important;
+          }
+        }
       }
     }
     .btn-view-details {
@@ -170,6 +189,7 @@
       text-align: center;
       a {
         width: 100% !important;
+        background-color: var(--theme-color1);
         &:hover {
           color: var(--theme-color3);
         }
@@ -182,17 +202,17 @@
 }
 .pricing-plan-skin-style1.pricing-active {
   .inner-box {
-    background-color: var(--theme-color2);
+    background-color: var(--theme-color3);
     position: relative;
     z-index: 1;
     .pricing-plan-label {
       text-transform: uppercase;
-      color: var(--theme-color2);
+      color: var(--theme-color3);
       font-size: 14px;
       font-weight: 700;
       letter-spacing: 0.3px;
       padding: 0px 55px;
-      background-color: var(--theme-color3);
+      background-color: var(--theme-color1);
       width: fit-content;
       position: absolute;
       top: 35px;
@@ -212,10 +232,13 @@
           filter: brightness(0) invert(1);
         }
       }
+      i {
+        color: var(--theme-color1) !important;
+      }
     }
     svg {
       path {
-        fill: var(--theme-color-white);
+        fill: var(--theme-color1);
         [data-tm-layout="dark"] & {
           fill: #fff;
         }
@@ -227,18 +250,28 @@
     .features-list {
       li {
         color: #fff;
+        &.no-action {
+          i {
+            color: rgba(255, 255, 255, 0.3) !important;
+          }
+        }
       }
     }
     .btn-view-details {
       margin-top: 40px;
       text-align: center;
       a {
-        background-color: #ffffff26;
         color: #fff;
         width: 100% !important;
         max-width: 310px;
         @include media-breakpoint-down(md) {
           min-width: 150px;
+        }
+        &:hover {
+          color: var(--theme-color3);
+        }
+        &:hover:before {
+          background-color: var(--theme-color1);
         }
       }
     }
