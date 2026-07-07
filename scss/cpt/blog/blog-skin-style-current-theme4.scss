@@ -64,7 +64,7 @@
       text-align: center;
       line-height: 1;
       padding: 12px;
-      background-color: var(--theme-color1);
+      background-color: var(--theme-color3);
       span {
         display: inline-block;
         text-align: center;
@@ -109,7 +109,7 @@
       font-size: 14px;
       i {
         margin-right: 5px;
-        color: var(--theme-color1);
+        color: var(--theme-color3);
         [data-tm-layout="dark"] & {
           color: #fff;
         }
@@ -129,6 +129,17 @@
   }
   .mascot-post-excerpt {
     margin-top: 15px;
+  }
+  .btn-view-details {
+    a:after {
+      color: var(--theme-color3);
+    }
+    a:hover {
+      color: var(--theme-color3) !important;
+      &:after {
+        color: var(--theme-color3) !important;
+      }
+    }
   }
   .btn-plain-text-with-arrow {
     text-transform: uppercase;
