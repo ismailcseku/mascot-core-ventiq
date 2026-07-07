@@ -35,7 +35,7 @@
   border-radius: 50%;
   text-align: center;
   margin: 0 auto;
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color3);
   position: relative;
   z-index: 1;
 }
@@ -43,20 +43,20 @@
   transition: all 900ms ease;
   font-size: 70px;
   line-height: 180px;
-  color: var(--theme-color1);
+  color: var(--theme-color-white);
   transform: rotateY(0deg);
 }
 .working-block-style1 .icon svg {
   font-size: 84px;
   line-height: 84px;
-  color: var(--theme-color2);
+  color: var(--theme-color-white);
   transition: all 900ms ease;
 }
 .working-block-style1 .icon svg path {
   transition: all 900ms ease;
   font-size: 70px;
   line-height: 180px;
-  fill: var(--theme-color1);
+  fill: var(--theme-color-white);
 }
 .working-block-style1 .icon .working-count {
   width: 70px;
@@ -118,7 +118,15 @@
   }
 }
 .working-block-style1.active .icon {
-  background-color: var(--theme-color2);
+  background-color: var(--theme-color1);
+}
+.working-block-style1.active .icon i,
+.working-block-style1.active .icon svg {
+  color: var(--theme-color3);
+}
+.working-block-style1.active .icon i path,
+.working-block-style1.active .icon svg path {
+  fill: var(--theme-color3);
 }
 .working-block-style1:hover .icon {
   background-color: var(--theme-color1);
@@ -126,12 +134,12 @@
 .working-block-style1:hover .icon i,
 .working-block-style1:hover .icon svg {
   transform: rotateY(360deg);
-  fill: #fff;
-  color: #fff;
+  fill: var(--theme-color3);
+  color: var(--theme-color3);
 }
 .working-block-style1:hover .icon i path,
 .working-block-style1:hover .icon svg path {
-  fill: #fff;
+  fill: var(--theme-color3);
 }
 .working-block-style1:hover .icon .working-count {
   animation: bounceIn 1s forwards;
@@ -141,10 +149,10 @@
   background-color: var(--theme-color1);
 }
 .isotope-item:nth-child(2) .working-block-style1 .icon i {
-  color: #fff;
+  color: var(--theme-color3);
 }
 .isotope-item:nth-child(2) .working-block-style1 .icon svg path {
-  fill: #fff;
+  fill: var(--theme-color3);
 }
 
 .isotope-item:last-child .working-block-style1 .line {

@@ -12,26 +12,26 @@
     border-radius: 50%;
     text-align: center;
     margin: 0 auto;
-    background-color: var(--theme-color2);
+    background-color: var(--theme-color3);
     position: relative;
     z-index: 1;
     i {
       transition: all 900ms ease;
       font-size: 70px;
       line-height: 180px;
-      color: var(--theme-color1);
+      color: var(--theme-color-white);
       transform: rotateY(0deg);
     }
     svg {
       font-size: 84px;
       line-height: 84px;
-      color: var(--theme-color2);
+      color: var(--theme-color-white);
       transition: all 900ms ease;
       path {
         transition: all 900ms ease;
         font-size: 70px;
         line-height: 180px;
-        fill: var(--theme-color1);
+        fill: var(--theme-color-white);
       }
     }
     .working-count {
@@ -89,7 +89,14 @@
   }
   &.active {
     .icon {
-      background-color: var(--theme-color2);
+      background-color: var(--theme-color1);
+      i,
+      svg {
+        color: var(--theme-color3);
+        path {
+          fill: var(--theme-color3);
+        }
+      }
     }
   }
   &:hover {
@@ -98,10 +105,10 @@
       i,
       svg {
         transform: rotateY(360deg);
-        fill: #fff;
-        color: #fff;
+        fill: var(--theme-color3);
+        color: var(--theme-color3);
         path {
-          fill: #fff;
+          fill: var(--theme-color3);
         }
       }
       .working-count {
@@ -113,11 +120,11 @@
 .isotope-item:nth-child(2) .working-block-style1 .icon {
   background-color: var(--theme-color1);
   i {
-    color: #fff;
+    color: var(--theme-color3);
   }
   svg {
     path {
-      fill: #fff;
+      fill: var(--theme-color3);
     }
   }
 }
