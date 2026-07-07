@@ -22,11 +22,13 @@
 .features-block-style1 .icon {
   width: 68px;
   height: 68px;
-  line-height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-  background: linear-gradient(-99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
+  background: rgba(255, 255, 255, 0.2);
 }
 .features-block-style1 .icon svg path {
   stroke-dasharray: 300;
@@ -34,9 +36,25 @@
   animation: draw 3s forwards ease-in-out;
 }
 .features-block-style1 .icon i {
-  font-size: 30px;
+  font-size: 34px;
   line-height: 68px;
-  color: #fff;
+  color: var(--theme-color1);
+  display: flex;
+  line-height: 1;
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  transform: rotateY(0);
+  transition: all 900ms ease;
+}
+.features-block-style1 .icon img,
+.features-block-style1 .icon svg {
+  display: block;
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  transform: rotateY(0);
+  transition: all 900ms ease;
 }
 .features-block-style1 .content {
   margin-top: 35px;
@@ -73,7 +91,7 @@
   margin-top: 10px;
 }
 .features-block-style1 .content .link-btn {
-  transform: rotate(45deg);
+  transform: rotate(0);
   display: inline-block;
   line-height: 1;
   font-size: 30px;
@@ -81,18 +99,33 @@
   transition: all 200ms ease;
 }
 .features-block-style1 .content .link-btn:hover {
-  transform: rotate(0);
+  color: var(--theme-color1);
+  transform: rotate(45deg);
   transition: all 200ms ease;
 }
-.features-block-style1:hover .icon svg path {
+.features-block-style1 .content .link-btn:hover svg path {
+  fill: var(--theme-color1);
+  stroke-dashoffset: 0;
   animation: draw2 3s forwards ease-in-out;
 }
 .features-block-style1:hover .icon {
+  background-color: var(--theme-color1);
   background-position: 0% 0;
 }
 .features-block-style1:hover .icon i {
+  color: var(--theme-color3);
   -webkit-transform: rotateY(-360deg);
   -moz-transform: rotateY(-360deg);
   -ms-transform: rotateY(-360deg);
   transform: rotateY(-360deg);
+}
+.features-block-style1:hover .icon img,
+.features-block-style1:hover .icon svg {
+  -webkit-transform: rotateY(-360deg);
+  -moz-transform: rotateY(-360deg);
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
+}
+.features-block-style1:hover .icon svg path {
+  animation: draw2 3s forwards ease-in-out;
 }
