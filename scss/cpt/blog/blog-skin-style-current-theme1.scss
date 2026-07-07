@@ -39,16 +39,19 @@
       position: absolute;
       top: 20px;
       left: 20px;
-      width: 70px;
-      height: 70px;
-      background: var(--theme-color2);
-      text-align: center;
-      padding-top: 13px;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: var(--theme-color3);
+      border-radius: 5px;
       z-index: 1;
       .day {
         font-size: 24px;
         font-weight: 700;
-        color: var(--theme-color3);
+        color: var(--theme-color1);
         line-height: 1;
       }
       .month {
@@ -133,13 +136,15 @@
 
     .btn-view-details {
       a {
-        color: var(--theme-color2);
+        color: var(--theme-color3);
         [data-tm-layout="dark"] & {
           color: #fff;
         }
-        font-size: 16px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
         display: inline-block;
-        margin-top: 15px;
+        margin-top: 5px;
         font-family: var(--heading-font-family);
         text-transform: capitalize;
         &:hover {
@@ -154,8 +159,8 @@
           line-height: 26px;
           content: "\f061";
           text-align: center;
-          background: linear-gradient(99deg, var(--theme-color3) 0%, var(--theme-color4) 93.92%);
-          color: var(--theme-color-white);
+          background: rgba(242, 245, 241, 1);
+          color: var(--theme-color2);
           border-radius: 26px;
           display: inline-block;
           margin-left: 5px;
@@ -164,7 +169,8 @@
           transition: all 0.3s ease-in-out;
         }
         &:hover:after {
-          color: var(--theme-color-white) !important;
+          background: var(--theme-color1);
+          color: var(--theme-color3) !important;
           transform: rotate(0deg);
           animation: unset;
         }
