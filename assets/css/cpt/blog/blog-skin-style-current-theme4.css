@@ -127,7 +127,7 @@
   position: relative;
   text-transform: capitalize !important;
   margin-bottom: 15px !important;
-  background-color: #f3f4f7;
+  background-color: rgb(255, 255, 255);
   padding: 5px 12px;
 }
 [data-tm-layout=dark] .blog-item-current-style4 .entry-meta {
@@ -145,6 +145,9 @@
 [data-tm-layout=dark] .blog-item-current-style4 .entry-meta li i {
   color: #fff;
 }
+.blog-item-current-style4 .entry-meta li a:hover {
+  color: var(--theme-color3);
+}
 .blog-item-current-style4 .entry-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -153,35 +156,27 @@
 [data-tm-layout=dark] .blog-item-current-style4 .entry-title a:focus {
   color: #fff;
 }
+.blog-item-current-style4 .entry-title a {
+  background-position: 0 95%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  display: inline;
+  color: var(--theme-color3);
+}
+.blog-item-current-style4 .entry-title a:hover {
+  background-size: 100% 2px;
+  background-image: linear-gradient(180deg, var(--theme-color3) 0%, var(--theme-color3) 100%);
+  color: var(--theme-color3);
+}
 .blog-item-current-style4 .mascot-post-excerpt {
   margin-top: 15px;
 }
-.blog-item-current-style4 .btn-view-details a:after {
+.blog-item-current-style4 .btn-plain-text-with-arrow-right:after {
   color: var(--theme-color3);
 }
-.blog-item-current-style4 .btn-view-details a:hover {
+.blog-item-current-style4 .btn-plain-text-with-arrow-right:hover {
   color: var(--theme-color3) !important;
 }
-.blog-item-current-style4 .btn-view-details a:hover:after {
+.blog-item-current-style4 .btn-plain-text-with-arrow-right:hover:after {
   color: var(--theme-color3) !important;
-}
-.blog-item-current-style4 .btn-plain-text-with-arrow {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-}
-.blog-item-current-style4 .btn-plain-text-with-arrow:before {
-  color: var(--headings-color);
-}
-[data-tm-layout=dark] .blog-item-current-style4 .btn-plain-text-with-arrow {
-  color: #aaa;
-}
-.blog-item-current-style4 .btn-plain-text-with-arrow:after {
-  font-size: 14px;
-}
-.blog-item-current-style4 .btn-plain-text-with-arrow:hover {
-  color: var(--theme-color1);
-}
-.blog-item-current-style4 .btn-plain-text-with-arrow:hover:after {
-  color: var(--theme-color1);
 }
