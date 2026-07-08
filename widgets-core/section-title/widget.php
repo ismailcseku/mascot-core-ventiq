@@ -1141,6 +1141,37 @@ class TM_Elementor_Section_Title extends Widget_Base {
 				],
 			]
 		);
+		$this->add_control(
+			'subtitle_dot_color_options',
+			[
+				'label' => esc_html__('Dot Options', 'mascot-core-ventiq'),
+				'type' => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			]
+		);
+		$this->add_control(
+			'subtitle_dot_color',
+			[
+				'label' => esc_html__("Dot Color", 'mascot-core-ventiq'),
+				'type' => \Elementor\Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .tm-sc-section-title .title-wrapper .sub-title-outer .subtitle:before' => 'background-color: {{VALUE}};'
+				]
+			]
+		);
+		$this->add_group_control(
+			\Elementor\Group_Control_Background::get_type(),
+			[
+				'name' => 'subtitle_dot_background',
+				'label' => esc_html__('Background', 'mascot-core-ventiq'),
+				'types' => ['classic', 'gradient', 'video'],
+				'selector' => '{{WRAPPER}} .tm-sc-section-title .title-wrapper .sub-title-outer .subtitle:before',
+				'fields_options' => [
+					'position' => ['default' => 'center center'],
+					'repeat' => ['default' => 'no-repeat'],
+				],
+			]
+		);
 		$this->end_controls_section();
 
 
