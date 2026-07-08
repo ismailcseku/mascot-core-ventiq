@@ -15,32 +15,22 @@
 [data-tm-layout=dark] .counter-block-style2 {
   border-color: rgba(255, 255, 255, 0.1882352941);
 }
-@media (max-width: 1440px) {
-  .counter-block-style2 {
-    width: 315px;
-    height: 315px;
-    padding-top: 70px;
-  }
-}
 @media (max-width: 1200px) {
   .counter-block-style2 {
-    width: 240px;
-    height: 240px;
-    padding-top: 35px;
+    width: 250px;
+    height: 250px;
   }
 }
 @media (max-width: 1024px) {
   .counter-block-style2 {
-    width: 320px;
-    height: 320px;
-    padding-top: 70px;
+    width: 310px;
+    height: 310px;
   }
 }
 @media (max-width: 767.98px) {
   .counter-block-style2 {
     width: 250px;
     height: 250px;
-    padding-top: 45px;
     margin: 0 auto;
   }
 }
@@ -48,7 +38,6 @@
   .counter-block-style2 {
     width: 230px;
     height: 230px;
-    padding-top: 45px;
   }
 }
 .counter-block-style2 .counter {
