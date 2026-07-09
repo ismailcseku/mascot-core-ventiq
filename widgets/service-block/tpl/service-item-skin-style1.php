@@ -3,9 +3,10 @@
 <?php
 $service_item['title_tag'] = $title_tag;
 $service_item['subtitle_tag'] = $subtitle_tag;
-$service_link = $service_item['service_link'];
-$target = ( $service_link && $service_link['is_external'] ) ? ' target="_blank"' : '';
-$url = ( $service_link && $service_link['url'] ) ? $service_link['url'] : '';
+$feature_link = $service_item['feature_link'];
+$count = $service_item['count'];
+$target = ( $feature_link && $feature_link['is_external'] ) ? ' target="_blank"' : '';
+$url = ( $feature_link && $feature_link['url'] ) ? $feature_link['url'] : '';
 ?>
 
 <div class="service-block service-block-style1">
