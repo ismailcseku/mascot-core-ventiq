@@ -2,7 +2,7 @@
 @import "service-common";
 .service-block-style1 {
   .inner-block {
-    background-color: #F2F5F1;
+    background-color: #f2f5f1;
     border-radius: 20px;
     padding: 40px;
     &:hover {
@@ -50,6 +50,12 @@
       margin-top: 0;
       margin-bottom: 8px;
       @include transition(all 300ms ease);
+      a {
+        &:hover,
+        &:focus {
+          color: var(--theme-color3);
+        }
+      }
     }
     .service-details {
       margin-bottom: 30px;

@@ -124,7 +124,7 @@
 }
 
 .service-block-style1 .inner-block {
-  background-color: #F2F5F1;
+  background-color: #f2f5f1;
   border-radius: 20px;
   padding: 40px;
 }
@@ -171,6 +171,9 @@
   margin-top: 0;
   margin-bottom: 8px;
   transition: all 300ms ease;
+}
+.service-block-style1 .inner-block .service-title a:hover, .service-block-style1 .inner-block .service-title a:focus {
+  color: var(--theme-color3);
 }
 .service-block-style1 .inner-block .service-details {
   margin-bottom: 30px;
