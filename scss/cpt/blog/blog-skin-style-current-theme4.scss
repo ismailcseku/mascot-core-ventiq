@@ -4,10 +4,7 @@
 .blog-item-current-style4 {
   position: relative;
   @include transition(all 300ms ease);
-  border-bottom: 3px solid #f3f4f7;
-  [data-tm-layout="dark"] & {
-    border-bottom-color: #ffffff12;
-  }
+  border-bottom: 3px solid #eee;
   &:hover {
     .entry-header {
       @include transition(all 300ms ease);
@@ -99,20 +96,14 @@
     position: relative;
     text-transform: capitalize !important;
     margin-bottom: 15px !important;
-    background-color: rgb(255, 255, 255);
+    background-color: #eee;
     padding: 5px 12px;
-    [data-tm-layout="dark"] & {
-      background-color: #131b24;
-    }
     li {
       position: relative;
       font-size: 14px;
       i {
         margin-right: 5px;
         color: var(--theme-color3);
-        [data-tm-layout="dark"] & {
-          color: #fff;
-        }
         font-size: 14px;
       }
       a:hover {

@@ -10,28 +10,16 @@
       transform: translateY(-10px);
       .price {
         .pricing-plan-prefix {
-          color: var(--theme-color-white);
-          [data-tm-layout="dark"] & {
-            color: #fff;
-          }
+          color: #fff;
         }
         .pricing-plan-price {
-          color: var(--theme-color-white);
-          [data-tm-layout="dark"] & {
-            color: #fff;
-          }
+          color: #fff;
         }
         .pricing-plan-separator {
-          color: var(--theme-color-white);
-          [data-tm-layout="dark"] & {
-            color: #fff;
-          }
+          color: #fff;
         }
         .pricing-plan-postfix {
-          color: var(--theme-color-white);
-          [data-tm-layout="dark"] & {
-            color: #fff;
-          }
+          color: #fff;
         }
       }
       .pricing-plan-label {
@@ -68,9 +56,6 @@
       svg {
         path {
           fill: var(--theme-color1);
-          [data-tm-layout="dark"] & {
-            fill: #fff;
-          }
         }
       }
       i {
@@ -110,10 +95,7 @@
   .inner-box {
     padding: 50px;
     border: 1px solid #eee;
-    [data-tm-layout="dark"] & {
-      border-color: #ffffff1c;
-    }
-    background-color: var(--theme-color-white);
+    background-color: #fff;
     border-radius: 20px;
     overflow: hidden;
     @include transition(all 500ms ease);
@@ -147,9 +129,6 @@
       .icon {
         color: var(--theme-color3);
         font-size: 60px;
-        [data-tm-layout="dark"] & {
-          color: #fff;
-        }
       }
       .pricing-plan-title {
         margin-bottom: 10px;
@@ -173,9 +152,6 @@
         font-size: 16px;
         i {
           color: var(--theme-color1);
-          [data-tm-layout="dark"] & {
-            color: #fff;
-          }
         }
         &.no-action {
           i {
@@ -190,8 +166,9 @@
       a {
         width: 100% !important;
         background-color: var(--theme-color1);
+        color: var(--theme-color1-text-color);
         &:hover {
-          color: var(--theme-color3);
+          color: var(--theme-color3-text-color);
         }
         &:hover:before {
           background-color: var(--theme-color1);
@@ -239,9 +216,6 @@
     svg {
       path {
         fill: var(--theme-color1);
-        [data-tm-layout="dark"] & {
-          fill: #fff;
-        }
       }
     }
     i {

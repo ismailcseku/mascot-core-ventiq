@@ -348,27 +348,15 @@
   transform: translateY(-10px);
 }
 .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-prefix, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-prefix {
-  color: var(--theme-color-white);
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-prefix, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-prefix {
   color: #fff;
 }
 .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-price, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-price {
-  color: var(--theme-color-white);
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-price, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-price {
   color: #fff;
 }
 .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-separator, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-separator {
-  color: var(--theme-color-white);
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-separator, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-separator {
   color: #fff;
 }
 .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-postfix, .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-postfix {
-  color: var(--theme-color-white);
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box .price .pricing-plan-postfix, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box .price .pricing-plan-postfix {
   color: #fff;
 }
 .pricing-plan-skin-style1:hover .inner-box .pricing-plan-label, .pricing-plan-skin-style1.pricing-active .inner-box .pricing-plan-label {
@@ -403,9 +391,6 @@
 .pricing-plan-skin-style1:hover .inner-box svg path, .pricing-plan-skin-style1.pricing-active .inner-box svg path {
   fill: var(--theme-color1);
 }
-[data-tm-layout=dark] .pricing-plan-skin-style1:hover .inner-box svg path, [data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
-  fill: #fff;
-}
 .pricing-plan-skin-style1:hover .inner-box i, .pricing-plan-skin-style1.pricing-active .inner-box i {
   color: #fff !important;
 }
@@ -439,13 +424,10 @@
 .pricing-plan-skin-style1 .inner-box {
   padding: 50px;
   border: 1px solid #eee;
-  background-color: var(--theme-color-white);
+  background-color: #fff;
   border-radius: 20px;
   overflow: hidden;
   transition: all 500ms ease;
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box {
-  border-color: rgba(255, 255, 255, 0.1098039216);
 }
 @media (max-width: 575.98px) {
   .pricing-plan-skin-style1 .inner-box {
@@ -481,9 +463,6 @@
   color: var(--theme-color3);
   font-size: 60px;
 }
-[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .head .icon {
-  color: #fff;
-}
 .pricing-plan-skin-style1 .inner-box .head .pricing-plan-title {
   margin-bottom: 10px;
   margin-top: 5px;
@@ -506,9 +485,6 @@
 .pricing-plan-skin-style1 .inner-box .features-list li i {
   color: var(--theme-color1);
 }
-[data-tm-layout=dark] .pricing-plan-skin-style1 .inner-box .features-list li i {
-  color: #fff;
-}
 .pricing-plan-skin-style1 .inner-box .features-list li.no-action i {
   color: rgba(20, 68, 67, 0.4) !important;
 }
@@ -519,9 +495,10 @@
 .pricing-plan-skin-style1 .inner-box .btn-view-details a {
   width: 100% !important;
   background-color: var(--theme-color1);
+  color: var(--theme-color1-text-color);
 }
 .pricing-plan-skin-style1 .inner-box .btn-view-details a:hover {
-  color: var(--theme-color3);
+  color: var(--theme-color3-text-color);
 }
 .pricing-plan-skin-style1 .inner-box .btn-view-details a:hover:before {
   background-color: var(--theme-color1);
@@ -563,9 +540,6 @@
 }
 .pricing-plan-skin-style1.pricing-active .inner-box svg path {
   fill: var(--theme-color1);
-}
-[data-tm-layout=dark] .pricing-plan-skin-style1.pricing-active .inner-box svg path {
-  fill: #fff;
 }
 .pricing-plan-skin-style1.pricing-active .inner-box i {
   color: #fff !important;
