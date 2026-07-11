@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Package Name\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-27 22:19+0600\n"
+"POT-Creation-Date: 2026-07-11 13:02+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,33 +30,33 @@ msgstr ""
 msgid "Responsive Columns Layout"
 msgstr ""
 
-#: mascot-core-wp.php:174
+#: mascot-core-wp.php:176
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
 msgstr ""
 
-#: mascot-core-wp.php:175
+#: mascot-core-wp.php:177
 msgid "Mascot Core - Ventiq"
 msgstr ""
 
-#: mascot-core-wp.php:176
+#: mascot-core-wp.php:178
 msgid "Mascot Core"
 msgstr ""
 
-#: mascot-core-wp.php:197 mascot-core-wp.php:299
+#: mascot-core-wp.php:199 mascot-core-wp.php:301
 #, php-format
 msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
 msgstr ""
 
-#: mascot-core-wp.php:198 mascot-core-wp.php:300
+#: mascot-core-wp.php:200 mascot-core-wp.php:302
 msgid "Mascot Core - Ventiq Elementor"
 msgstr ""
 
-#: mascot-core-wp.php:199
+#: mascot-core-wp.php:201
 msgid "Elementor"
 msgstr ""
 
-#: mascot-core-wp.php:301
+#: mascot-core-wp.php:303
 msgid "PHP"
 msgstr ""
 
@@ -140,17 +140,17 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: cpt/blog/widget.php:179 elementor-elements/container.php:407
-#: elementor-elements/section.php:335 widgets/counter-block/widget.php:135
+#: cpt/blog/widget.php:179 elementor-elements/container.php:409
+#: elementor-elements/section.php:337 widgets/counter-block/widget.php:135
 #: widgets/features-block/widget.php:305 widgets/pricing-block/widget.php:138
-#: widgets/service-block/widget.php:353 widgets/team-block/widget.php:276
+#: widgets/service-block/widget.php:362 widgets/team-block/widget.php:276
 #: widgets/testimonial-block/widget.php:226
 #: widgets/working-block/widget.php:316
 msgid "Wow Appear Animation"
 msgstr ""
 
 #: cpt/blog/widget.php:187 widgets/counter-block/widget.php:143
-#: widgets/features-block/widget.php:313 widgets/service-block/widget.php:361
+#: widgets/features-block/widget.php:313 widgets/service-block/widget.php:370
 #: widgets/team-block/widget.php:284 widgets/testimonial-block/widget.php:234
 #: widgets/working-block/widget.php:324
 msgid "Animation Delay"
@@ -161,7 +161,7 @@ msgstr ""
 #: widgets/before-after-slider/widget.php:215
 #: widgets/features-block/widget.php:383 widgets/hero-slider/widget.php:329
 #: widgets/image-gallery/widget.php:129 widgets/pricing-block/widget.php:282
-#: widgets/service-block/widget.php:420 widgets/showcase-block/widget.php:242
+#: widgets/service-block/widget.php:429 widgets/showcase-block/widget.php:242
 #: widgets/team-block/widget.php:350 widgets/testimonial-block/widget.php:291
 #: widgets/working-block/widget.php:396
 #: widgets-core/clients-logo/widget.php:190
@@ -178,7 +178,7 @@ msgstr ""
 #: widgets/award-block/widget.php:135
 #: widgets/before-after-slider/widget.php:218
 #: widgets/features-block/widget.php:386 widgets/image-gallery/widget.php:132
-#: widgets/pricing-block/widget.php:285 widgets/service-block/widget.php:423
+#: widgets/pricing-block/widget.php:285 widgets/service-block/widget.php:432
 #: widgets/showcase-block/widget.php:245 widgets/team-block/widget.php:353
 #: widgets/testimonial-block/widget.php:294
 #: widgets/working-block/widget.php:399
@@ -191,7 +191,7 @@ msgstr ""
 #: widgets/award-block/widget.php:136
 #: widgets/before-after-slider/widget.php:219
 #: widgets/features-block/widget.php:387 widgets/image-gallery/widget.php:133
-#: widgets/service-block/widget.php:424 widgets/showcase-block/widget.php:246
+#: widgets/service-block/widget.php:433 widgets/showcase-block/widget.php:246
 #: widgets/team-block/widget.php:354 widgets/testimonial-block/widget.php:295
 #: widgets/working-block/widget.php:400
 #: widgets-shop/wc-products/widget.php:140
@@ -207,7 +207,7 @@ msgstr ""
 #: widgets/before-after-slider/widget.php:220
 #: widgets/features-block/widget.php:388 widgets/hero-slider/widget.php:332
 #: widgets/image-gallery/widget.php:135 widgets/pricing-block/widget.php:286
-#: widgets/service-block/widget.php:425 widgets/showcase-block/widget.php:247
+#: widgets/service-block/widget.php:434 widgets/showcase-block/widget.php:247
 #: widgets/team-block/widget.php:355 widgets/testimonial-block/widget.php:296
 #: widgets/working-block/widget.php:401
 #: widgets-core/clients-logo/widget.php:194
@@ -219,7 +219,7 @@ msgstr ""
 #: widgets/award-block/widget.php:138
 #: widgets/before-after-slider/widget.php:221
 #: widgets/features-block/widget.php:389 widgets/pricing-block/widget.php:287
-#: widgets/service-block/widget.php:426 widgets/showcase-block/widget.php:248
+#: widgets/service-block/widget.php:435 widgets/showcase-block/widget.php:248
 #: widgets/team-block/widget.php:356 widgets/testimonial-block/widget.php:297
 #: widgets/working-block/widget.php:402
 #: widgets-shop/info-banner/widget.php:130
@@ -235,7 +235,7 @@ msgstr ""
 #: widgets/before-after-slider/widget.php:228
 #: widgets/features-block/widget.php:396 widgets/hero-slider/widget.php:339
 #: widgets/image-gallery/widget.php:178 widgets/pricing-block/widget.php:294
-#: widgets/service-block/widget.php:433 widgets/showcase-block/widget.php:255
+#: widgets/service-block/widget.php:442 widgets/showcase-block/widget.php:255
 #: widgets/team-block/widget.php:363 widgets/testimonial-block/widget.php:304
 #: widgets/working-block/widget.php:409
 #: widgets-core/clients-logo/widget.php:202
@@ -247,7 +247,7 @@ msgstr ""
 #: widgets/award-block/widget.php:168
 #: widgets/before-after-slider/widget.php:251
 #: widgets/features-block/widget.php:419 widgets/image-gallery/widget.php:202
-#: widgets/pricing-block/widget.php:314 widgets/service-block/widget.php:456
+#: widgets/pricing-block/widget.php:314 widgets/service-block/widget.php:465
 #: widgets/showcase-block/widget.php:278 widgets/team-block/widget.php:386
 #: widgets/testimonial-block/widget.php:327
 #: widgets/working-block/widget.php:432
@@ -358,7 +358,7 @@ msgstr ""
 #: widgets/counter-block/widget.php:278 widgets/features-block/widget.php:438
 #: widgets/hero-slider/widget.php:411 widgets/image-gallery/widget.php:308
 #: widgets/pricing-block/widget.php:166 widgets/pricing-plan/widget.php:155
-#: widgets/service-block/widget.php:475 widgets/showcase-block/widget.php:138
+#: widgets/service-block/widget.php:484 widgets/showcase-block/widget.php:138
 #: widgets/working-block/widget.php:156 widgets-core/accordion/widget.php:151
 #: widgets-core/contact-form-7/widget.php:263
 #: widgets-core/funfact-counter/widget.php:293
@@ -403,7 +403,7 @@ msgstr ""
 #: widgets/blog-list/widget.php:399 widgets/counter-block/widget.php:964
 #: widgets/features-block/widget.php:483 widgets/hero-slider/widget.php:457
 #: widgets/interactive-tabs-title/widget.php:191
-#: widgets/pricing-block/widget.php:352 widgets/service-block/widget.php:524
+#: widgets/pricing-block/widget.php:352 widgets/service-block/widget.php:533
 #: widgets/vertical-image-slider/widget.php:783
 #: widgets/working-block/widget.php:475 widgets-core/accordion/widget.php:266
 #: widgets-core/funfact-counter/widget.php:978
@@ -453,10 +453,10 @@ msgstr ""
 #: widgets/projects-pre-next/widget.php:223
 #: widgets/projects-pre-next/widget.php:283
 #: widgets/projects-pre-next/widget.php:320
-#: widgets/service-block/widget.php:538 widgets/service-block/widget.php:600
-#: widgets/service-block/widget.php:632 widgets/service-block/widget.php:677
-#: widgets/service-block/widget.php:737 widgets/service-block/widget.php:782
-#: widgets/service-block/widget.php:842 widgets/showcase-block/widget.php:318
+#: widgets/service-block/widget.php:547 widgets/service-block/widget.php:609
+#: widgets/service-block/widget.php:641 widgets/service-block/widget.php:686
+#: widgets/service-block/widget.php:746 widgets/service-block/widget.php:791
+#: widgets/service-block/widget.php:851 widgets/showcase-block/widget.php:318
 #: widgets/spin-text-around-logo/widget.php:189
 #: widgets/team-block/widget.php:476 widgets/team-block/widget.php:536
 #: widgets/team-block/widget.php:566 widgets/team-block/widget.php:616
@@ -512,7 +512,7 @@ msgstr ""
 #: widgets-core/section-title/widget.php:219
 #: widgets-core/section-title/widget.php:470
 #: widgets-core/section-title/widget.php:859
-#: widgets-core/section-title/widget.php:1206
+#: widgets-core/section-title/widget.php:1237
 #: widgets-core/tabs/widget.php:1195 widgets-core/tabs/widget.php:1244
 #: widgets-core/tabs/widget.php:1284
 #: widgets-core/tabs/skins/skin-left-nav.php:982
@@ -602,8 +602,8 @@ msgstr ""
 #: widgets/projects-pre-next/widget.php:343
 #: widgets/projects-pre-next/widget.php:406
 #: widgets/projects-pre-next/widget.php:453
-#: widgets/service-block/widget.php:563 widgets/service-block/widget.php:700
-#: widgets/service-block/widget.php:805 widgets/service-block/widget.php:946
+#: widgets/service-block/widget.php:572 widgets/service-block/widget.php:709
+#: widgets/service-block/widget.php:814 widgets/service-block/widget.php:955
 #: widgets/showcase-block/widget.php:339
 #: widgets/swiper-carousel-arrow/widget.php:312
 #: widgets/team-block/widget.php:499 widgets/team-block/widget.php:639
@@ -649,8 +649,8 @@ msgstr ""
 #: widgets-core/section-title/widget.php:463
 #: widgets-core/section-title/widget.php:904
 #: widgets-core/section-title/widget.php:1056
-#: widgets-core/section-title/widget.php:1272
-#: widgets-core/section-title/widget.php:1466
+#: widgets-core/section-title/widget.php:1303
+#: widgets-core/section-title/widget.php:1497
 #: widgets-core/tabs/widget.php:1180
 #: widgets-core/tabs/skins/skin-left-nav.php:968
 #: widgets-core/tabs/skins/skin-left-nav.php:1107
@@ -688,7 +688,7 @@ msgstr ""
 
 #: cpt/blog/widget.php:566 cpt/projects/widget.php:1046
 #: widgets/features-block/widget.php:620 widgets/pricing-block/widget.php:592
-#: widgets/service-block/widget.php:768 widgets/working-block/widget.php:612
+#: widgets/service-block/widget.php:777 widgets/working-block/widget.php:612
 #: widgets-core/info-box/widget.php:608
 msgid "Excerpt Styling"
 msgstr ""
@@ -707,7 +707,7 @@ msgstr ""
 #: widgets-core/image-with-rotated-text/widget.php:424
 #: widgets-core/info-box/widget.php:625 widgets-core/list/widget.php:305
 #: widgets-core/rotated-text/widget.php:426
-#: widgets-core/section-title/widget.php:1216
+#: widgets-core/section-title/widget.php:1247
 #: widgets-shop/product-category/widget.php:563
 #: widgets-shop/product-category/widget.php:670
 #: widgets-shop/product-category/widget.php:765
@@ -749,10 +749,10 @@ msgstr ""
 #: widgets/projects-pre-next/widget.php:233
 #: widgets/projects-pre-next/widget.php:293
 #: widgets/projects-pre-next/widget.php:330
-#: widgets/service-block/widget.php:549 widgets/service-block/widget.php:611
-#: widgets/service-block/widget.php:643 widgets/service-block/widget.php:687
-#: widgets/service-block/widget.php:747 widgets/service-block/widget.php:792
-#: widgets/service-block/widget.php:852
+#: widgets/service-block/widget.php:558 widgets/service-block/widget.php:620
+#: widgets/service-block/widget.php:652 widgets/service-block/widget.php:696
+#: widgets/service-block/widget.php:756 widgets/service-block/widget.php:801
+#: widgets/service-block/widget.php:861
 #: widgets/spin-text-around-logo/widget.php:199
 #: widgets/team-block/widget.php:486 widgets/team-block/widget.php:546
 #: widgets/team-block/widget.php:577 widgets/team-block/widget.php:626
@@ -787,7 +787,7 @@ msgstr ""
 #: widgets-core/image-with-rotated-text/widget.php:434
 #: widgets-core/info-box/widget.php:635
 #: widgets-core/rotated-text/widget.php:436
-#: widgets-core/section-title/widget.php:1226
+#: widgets-core/section-title/widget.php:1257
 #: widgets-core/tabs/widget.php:1205 widgets-core/tabs/widget.php:1254
 #: widgets-core/tabs/widget.php:1294
 #: widgets-core/tabs/skins/skin-left-nav.php:2007
@@ -809,7 +809,7 @@ msgstr ""
 #: widgets-core/image-with-rotated-text/widget.php:446
 #: widgets-core/info-box/widget.php:647
 #: widgets-core/rotated-text/widget.php:448
-#: widgets-core/section-title/widget.php:1238
+#: widgets-core/section-title/widget.php:1269
 #: widgets-shop/product-category/widget.php:573
 #: widgets-shop/product-category/widget.php:680
 #: widgets-shop/product-category/widget.php:775
@@ -840,8 +840,8 @@ msgstr ""
 #: cpt/blog/widget.php:734 widgets/counter-block/widget.php:650
 #: widgets/counter-block/widget.php:728 widgets/features-block/widget.php:771
 #: widgets/features-block/widget.php:993 widgets/pricing-block/widget.php:736
-#: widgets/pricing-block/widget.php:966 widgets/service-block/widget.php:912
-#: widgets/service-block/widget.php:1142 widgets/team-block/widget.php:906
+#: widgets/pricing-block/widget.php:966 widgets/service-block/widget.php:921
+#: widgets/service-block/widget.php:1151 widgets/team-block/widget.php:906
 #: widgets/team-block/widget.php:1124 widgets/working-block/widget.php:763
 #: widgets/working-block/widget.php:985 widgets-core/button/widget.php:316
 #: widgets-core/funfact-counter/widget.php:648
@@ -1006,8 +1006,8 @@ msgstr ""
 #: widgets/moving-text-repeater/widget.php:573
 #: widgets/pricing-block/widget.php:360 widgets/pricing-block/widget.php:495
 #: widgets/pricing-block/widget.php:600 widgets/pricing-block/widget.php:705
-#: widgets/service-block/widget.php:532 widgets/service-block/widget.php:671
-#: widgets/service-block/widget.php:776 widgets/service-block/widget.php:881
+#: widgets/service-block/widget.php:541 widgets/service-block/widget.php:680
+#: widgets/service-block/widget.php:785 widgets/service-block/widget.php:890
 #: widgets/service-block/skins/skin-creative1.php:49
 #: widgets/service-block/skins/skin-style1.php:48
 #: widgets/service-block/skins/skin-style12.php:48
@@ -1290,8 +1290,8 @@ msgstr ""
 #: widgets/pricing-plan-switcher/widget.php:258
 #: widgets/pricing-plan-switcher/skins/skin-style1.php:71
 #: widgets/pricing-plan-switcher/skins/skin-style1.php:125
-#: widgets/service-block/widget.php:334 widgets/service-block/widget.php:570
-#: widgets/service-block/widget.php:707 widgets/service-block/widget.php:812
+#: widgets/service-block/widget.php:343 widgets/service-block/widget.php:579
+#: widgets/service-block/widget.php:716 widgets/service-block/widget.php:821
 #: widgets/service-block/skins/skin-creative1.php:85
 #: widgets/swiper-carousel-arrow/widget.php:273
 #: widgets/team-block/widget.php:257 widgets/team-block/widget.php:506
@@ -1367,8 +1367,8 @@ msgstr ""
 #: widgets/pricing-plan-switcher/skins/skin-style1.php:189
 #: widgets/pricing-plan-switcher/skins/skin-style2.php:101
 #: widgets/pricing-plan-switcher/skins/skin-style2.php:307
-#: widgets/service-block/widget.php:581 widgets/service-block/widget.php:718
-#: widgets/service-block/widget.php:823
+#: widgets/service-block/widget.php:590 widgets/service-block/widget.php:727
+#: widgets/service-block/widget.php:832
 #: widgets/service-block/skins/skin-creative1.php:96
 #: widgets/team-block/widget.php:517 widgets/team-block/widget.php:657
 #: widgets/team-block/widget.php:797 widgets/testimonial-block/widget.php:548
@@ -1439,7 +1439,7 @@ msgstr ""
 #: widgets/projects-pre-next/widget.php:314
 #: widgets/projects-pre-next/widget.php:424
 #: widgets/projects-pre-next/widget.php:542
-#: widgets/service-block/widget.php:626 widgets/service-block/widget.php:1136
+#: widgets/service-block/widget.php:635 widgets/service-block/widget.php:1145
 #: widgets/service-block/skins/skin-style1.php:132
 #: widgets/service-block/skins/skin-style12.php:132
 #: widgets/service-block/skins/skin-style13.php:132
@@ -1603,7 +1603,7 @@ msgstr ""
 #: widgets/features-block/widget.php:1068 widgets/hero-slider/widget.php:706
 #: widgets/pricing-block/widget.php:1090 widgets/pricing-plan/widget.php:1649
 #: widgets/pricing-plan-switcher/skins/skin-style2.php:64
-#: widgets/service-block/widget.php:1219 widgets/showcase-block/widget.php:398
+#: widgets/service-block/widget.php:1228 widgets/showcase-block/widget.php:398
 #: widgets/team-block/widget.php:1198
 #: widgets/testimonial-block/widget.php:1050
 #: widgets/working-block/widget.php:1062 widgets-core/icon-box/widget.php:2509
@@ -1616,7 +1616,7 @@ msgstr ""
 #: lib/functions.php:1198 widgets/award-block/widget.php:516
 #: widgets/features-block/widget.php:1081 widgets/hero-slider/widget.php:717
 #: widgets/pricing-block/widget.php:1103 widgets/pricing-plan/widget.php:1688
-#: widgets/service-block/widget.php:1232 widgets/showcase-block/widget.php:411
+#: widgets/service-block/widget.php:1241 widgets/showcase-block/widget.php:411
 #: widgets/team-block/widget.php:1211
 #: widgets/testimonial-block/widget.php:1063
 #: widgets/working-block/widget.php:1075 widgets-core/icon-box/widget.php:2522
@@ -1743,7 +1743,7 @@ msgstr ""
 #: widgets-core/rotated-text/widget.php:204
 #: widgets-core/section-title/widget.php:686
 #: widgets-core/section-title/widget.php:784
-#: widgets-core/section-title/widget.php:1336 widgets-core/tabs/widget.php:441
+#: widgets-core/section-title/widget.php:1367 widgets-core/tabs/widget.php:441
 #: widgets-core/tabs/skins/skin-left-nav.php:221
 #: widgets-core/tabs/skins/skin-left-nav.php:487
 #: widgets-core/tabs/skins/skin-left-nav.php:757
@@ -1779,7 +1779,7 @@ msgstr ""
 #: widgets-core/navigation-menu/widget.php:889
 #: widgets-core/rotated-text/widget.php:208
 #: widgets-core/section-title/widget.php:682
-#: widgets-core/section-title/widget.php:1340 widgets-core/tabs/widget.php:449
+#: widgets-core/section-title/widget.php:1371 widgets-core/tabs/widget.php:449
 #: widgets-core/tabs/skins/skin-left-nav.php:225
 #: widgets-core/tabs/skins/skin-left-nav.php:491
 #: widgets-core/tabs/skins/skin-left-nav.php:761
@@ -1923,8 +1923,8 @@ msgstr ""
 
 #: cpt/blog/skins/skin-vertical-list.php:173
 #: cpt/blog/skins/skin-vertical-list.php:228 elementor-elements/column.php:101
-#: elementor-elements/column.php:191 elementor-elements/container.php:304
-#: elementor-elements/section.php:233 widgets/app-button/widget.php:514
+#: elementor-elements/column.php:191 elementor-elements/container.php:306
+#: elementor-elements/section.php:235 widgets/app-button/widget.php:514
 #: widgets/app-button/widget.php:561 widgets/circle-text/widget.php:849
 #: widgets/circle-text/widget.php:919 widgets/circle-text/widget.php:1022
 #: widgets/circle-text/widget.php:1092 widgets/countdown-timer/widget.php:462
@@ -2009,7 +2009,7 @@ msgstr ""
 #: widgets/pricing-plan/widget.php:1858
 #: widgets/projects-pre-next/widget.php:533
 #: widgets/projects-pre-next/widget.php:580
-#: widgets/service-block/widget.php:1060
+#: widgets/service-block/widget.php:1069
 #: widgets/swiper-carousel-arrow/widget.php:302
 #: widgets/team-block/widget.php:1046
 #: widgets/testimonial-block/skins/skin-single.php:127
@@ -2097,7 +2097,7 @@ msgstr ""
 #: widgets/pricing-block/widget.php:865
 #: widgets/projects-pre-next/widget.php:524
 #: widgets/projects-pre-next/widget.php:571
-#: widgets/service-block/widget.php:1041
+#: widgets/service-block/widget.php:1050
 #: widgets/service-block/skins/skin-style2.php:219
 #: widgets/service-block/skins/skin-style3.php:219
 #: widgets/swiper-carousel-arrow/widget.php:284
@@ -2217,9 +2217,9 @@ msgid "In that case, please enable Display Type - Basic"
 msgstr ""
 
 #: cpt/projects/widget.php:247 cpt/projects/widget.php:443
-#: elementor-elements/container.php:186 elementor-elements/container.php:203
-#: elementor-elements/container.php:518 elementor-elements/section.php:92
-#: elementor-elements/section.php:109
+#: elementor-elements/container.php:188 elementor-elements/container.php:205
+#: elementor-elements/container.php:520 elementor-elements/section.php:94
+#: elementor-elements/section.php:111
 #: external-plugins/mouse-helper/mouse-helper.php:138
 #: external-plugins/mouse-helper/mouse-helper.php:147
 #: external-plugins/mouse-helper/mouse-helper.php:159
@@ -2252,9 +2252,9 @@ msgid "Yes"
 msgstr ""
 
 #: cpt/projects/widget.php:248 cpt/projects/widget.php:444
-#: elementor-elements/column.php:169 elementor-elements/container.php:187
-#: elementor-elements/container.php:204 elementor-elements/container.php:519
-#: elementor-elements/section.php:93 elementor-elements/section.php:110
+#: elementor-elements/column.php:169 elementor-elements/container.php:189
+#: elementor-elements/container.php:206 elementor-elements/container.php:521
+#: elementor-elements/section.php:95 elementor-elements/section.php:112
 #: external-plugins/mouse-helper/mouse-helper.php:139
 #: external-plugins/mouse-helper/mouse-helper.php:148
 #: external-plugins/mouse-helper/mouse-helper.php:160
@@ -2588,8 +2588,8 @@ msgstr ""
 msgid "Skin - Mouse Follow Floating Info"
 msgstr ""
 
-#: elementor-elements/column.php:27 elementor-elements/container.php:153
-#: elementor-elements/section.php:59
+#: elementor-elements/column.php:27 elementor-elements/container.php:155
+#: elementor-elements/section.php:61
 msgid "TM BG Stretched Options"
 msgstr ""
 
@@ -2601,41 +2601,41 @@ msgstr ""
 msgid "Pre-defined Background Color for this Column"
 msgstr ""
 
-#: elementor-elements/column.php:41 elementor-elements/container.php:245
-#: elementor-elements/section.php:151
+#: elementor-elements/column.php:41 elementor-elements/container.php:247
+#: elementor-elements/section.php:153
 msgid "Transparent"
 msgstr ""
 
 #: elementor-elements/column.php:42 elementor-elements/column.php:62
-#: elementor-elements/container.php:246 elementor-elements/container.php:266
-#: elementor-elements/section.php:152 elementor-elements/section.php:172
+#: elementor-elements/container.php:248 elementor-elements/container.php:268
+#: elementor-elements/section.php:154 elementor-elements/section.php:174
 #: external-plugins/redux-framework/init-redux-args.php:668
 msgid "White"
 msgstr ""
 
-#: elementor-elements/column.php:43 elementor-elements/container.php:247
-#: elementor-elements/section.php:153 widgets-core/social-links/widget.php:310
+#: elementor-elements/column.php:43 elementor-elements/container.php:249
+#: elementor-elements/section.php:155 widgets-core/social-links/widget.php:310
 msgid "Light"
 msgstr ""
 
 #: elementor-elements/column.php:44 elementor-elements/column.php:63
-#: elementor-elements/container.php:248 elementor-elements/container.php:267
-#: elementor-elements/section.php:154 elementor-elements/section.php:173
+#: elementor-elements/container.php:250 elementor-elements/container.php:269
+#: elementor-elements/section.php:156 elementor-elements/section.php:175
 msgid "Blackish"
 msgstr ""
 
-#: elementor-elements/column.php:45 elementor-elements/container.php:249
-#: elementor-elements/section.php:155
+#: elementor-elements/column.php:45 elementor-elements/container.php:251
+#: elementor-elements/section.php:157
 msgid "Global Color"
 msgstr ""
 
-#: elementor-elements/column.php:46 elementor-elements/container.php:250
-#: elementor-elements/section.php:156
+#: elementor-elements/column.php:46 elementor-elements/container.php:252
+#: elementor-elements/section.php:158
 msgid "Secondary Color"
 msgstr ""
 
-#: elementor-elements/column.php:47 elementor-elements/container.php:251
-#: elementor-elements/section.php:157
+#: elementor-elements/column.php:47 elementor-elements/container.php:253
+#: elementor-elements/section.php:159
 #: widgets/vertical-image-slider/widget.php:441
 msgid "Gradient Color"
 msgstr ""
@@ -2648,9 +2648,9 @@ msgstr ""
 msgid "Pre-defined Text Color in this Column"
 msgstr ""
 
-#: elementor-elements/column.php:61 elementor-elements/container.php:94
-#: elementor-elements/container.php:265 elementor-elements/container.php:480
-#: elementor-elements/section.php:171
+#: elementor-elements/column.php:61 elementor-elements/container.php:96
+#: elementor-elements/container.php:267 elementor-elements/container.php:482
+#: elementor-elements/section.php:173
 #: external-plugins/mouse-helper/mouse-helper.php:200
 #: external-plugins/mouse-helper/mouse-helper.php:533 lib/functions.php:13
 #: lib/functions.php:1245 lib/functions.php:1265 lib/functions.php:1318
@@ -2689,18 +2689,18 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: elementor-elements/column.php:71 elementor-elements/container.php:275
-#: elementor-elements/section.php:181
+#: elementor-elements/column.php:71 elementor-elements/container.php:277
+#: elementor-elements/section.php:183
 msgid "BG Image - BG Color Order"
 msgstr ""
 
-#: elementor-elements/column.php:72 elementor-elements/container.php:276
-#: elementor-elements/section.php:182
+#: elementor-elements/column.php:72 elementor-elements/container.php:278
+#: elementor-elements/section.php:184
 msgid "You can show BG image over BG Color or reverse too."
 msgstr ""
 
-#: elementor-elements/column.php:94 elementor-elements/container.php:297
-#: elementor-elements/section.php:226
+#: elementor-elements/column.php:94 elementor-elements/container.php:299
+#: elementor-elements/section.php:228
 msgid "Mascot - Core Options"
 msgstr ""
 
@@ -2708,36 +2708,36 @@ msgstr ""
 msgid "Appear Animation"
 msgstr ""
 
-#: elementor-elements/column.php:116 elementor-elements/container.php:363
-#: elementor-elements/section.php:292 widgets/pricing-block/widget.php:1057
+#: elementor-elements/column.php:116 elementor-elements/container.php:365
+#: elementor-elements/section.php:294 widgets/pricing-block/widget.php:1057
 #: widgets/showcase-block/widget.php:365
 #: widgets-core/animated-layers/widget.php:406
 #: widgets-core/floating-objects/widget.php:254
 msgid "No Animation"
 msgstr ""
 
-#: elementor-elements/column.php:117 elementor-elements/container.php:352
-#: elementor-elements/container.php:364 elementor-elements/section.php:281
-#: elementor-elements/section.php:293
+#: elementor-elements/column.php:117 elementor-elements/container.php:354
+#: elementor-elements/container.php:366 elementor-elements/section.php:283
+#: elementor-elements/section.php:295
 #: widgets-core/animated-layers/widget.php:407
 #: widgets-core/floating-objects/widget.php:255
 msgid "Clip Path Animation"
 msgstr ""
 
-#: elementor-elements/column.php:118 elementor-elements/container.php:366
-#: elementor-elements/section.php:294
+#: elementor-elements/column.php:118 elementor-elements/container.php:368
+#: elementor-elements/section.php:296
 #: widgets-core/animated-layers/widget.php:409
 #: widgets-core/floating-objects/widget.php:257
 msgid "Block Clip Path Animation"
 msgstr ""
 
-#: elementor-elements/column.php:125 elementor-elements/container.php:373
-#: elementor-elements/section.php:301
+#: elementor-elements/column.php:125 elementor-elements/container.php:375
+#: elementor-elements/section.php:303
 msgid "Color1"
 msgstr ""
 
-#: elementor-elements/column.php:138 elementor-elements/container.php:386
-#: elementor-elements/section.php:314
+#: elementor-elements/column.php:138 elementor-elements/container.php:388
+#: elementor-elements/section.php:316
 msgid "Color2"
 msgstr ""
 
@@ -2779,7 +2779,7 @@ msgstr ""
 #: widgets-core/newsletter/widget.php:376
 #: widgets-core/rotated-text/widget.php:249
 #: widgets-core/section-title/widget.php:658
-#: widgets-core/section-title/widget.php:1294 widgets-core/tabs/widget.php:453
+#: widgets-core/section-title/widget.php:1325 widgets-core/tabs/widget.php:453
 #: widgets-core/tabs/skins/skin-left-nav.php:260
 #: widgets-core/tabs/skins/skin-left-nav.php:526
 #: widgets-core/tabs/skins/skin-left-nav.php:796
@@ -2822,7 +2822,7 @@ msgstr ""
 #: widgets-core/newsletter/widget.php:384
 #: widgets-core/rotated-text/widget.php:253
 #: widgets-core/section-title/widget.php:666
-#: widgets-core/section-title/widget.php:1298 widgets-core/tabs/widget.php:445
+#: widgets-core/section-title/widget.php:1329 widgets-core/tabs/widget.php:445
 #: widgets-core/tabs/skins/skin-left-nav.php:264
 #: widgets-core/tabs/skins/skin-left-nav.php:530
 #: widgets-core/tabs/skins/skin-left-nav.php:800
@@ -2855,42 +2855,42 @@ msgstr ""
 msgid "Example: background-color: #f1f1f1;"
 msgstr ""
 
-#: elementor-elements/container.php:83
+#: elementor-elements/container.php:85
 msgid "TM GSAP Pin Scroll Fixed"
 msgstr ""
 
-#: elementor-elements/container.php:90
+#: elementor-elements/container.php:92
 msgid "Pin Scroll Fixed"
 msgstr ""
 
-#: elementor-elements/container.php:95
+#: elementor-elements/container.php:97
 msgid "Enable For Boxed Parent Container"
 msgstr ""
 
-#: elementor-elements/container.php:96
+#: elementor-elements/container.php:98
 msgid "Enable For Fullwidth Parent Container"
 msgstr ""
 
-#: elementor-elements/container.php:104
+#: elementor-elements/container.php:106
 msgid "Start at (e.g. 200)"
 msgstr ""
 
-#: elementor-elements/container.php:118
+#: elementor-elements/container.php:120
 msgid "Responsive Condition"
 msgstr ""
 
-#: elementor-elements/container.php:129
+#: elementor-elements/container.php:131
 msgid "Stop Under Devices"
 msgstr ""
 
-#: elementor-elements/container.php:133 lib/functions.php:156
+#: elementor-elements/container.php:135 lib/functions.php:156
 #: lib/functions.php:174 lib/functions.php:1266 lib/functions.php:1853
 #: lib/plugin-core-utility-variables-functions.php:145
 #: lib/plugin-core-utility-variables-functions.php:513
 #: lib/plugin-core-utility-variables-functions.php:2104
 #: widgets/award-block/widget.php:365 widgets/circle-text/widget.php:729
 #: widgets/counter-block/widget.php:435 widgets/features-block/widget.php:749
-#: widgets/pricing-block/widget.php:714 widgets/service-block/widget.php:890
+#: widgets/pricing-block/widget.php:714 widgets/service-block/widget.php:899
 #: widgets/testimonial-block/widget.php:466
 #: widgets/vertical-image-slider/widget.php:564
 #: widgets/working-block/widget.php:741
@@ -2904,76 +2904,76 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: elementor-elements/container.php:134
+#: elementor-elements/container.php:136
 msgid "Laptop"
 msgstr ""
 
-#: elementor-elements/container.php:135
+#: elementor-elements/container.php:137
 msgid "Tablet"
 msgstr ""
 
-#: elementor-elements/container.php:136
+#: elementor-elements/container.php:138
 msgid "Mobile"
 msgstr ""
 
-#: elementor-elements/container.php:161 elementor-elements/section.php:67
+#: elementor-elements/container.php:163 elementor-elements/section.php:69
 msgid "Extend Column for background image"
 msgstr ""
 
-#: elementor-elements/container.php:162 elementor-elements/section.php:68
+#: elementor-elements/container.php:164 elementor-elements/section.php:70
 msgid "Select which column will be extended with background image."
 msgstr ""
 
-#: elementor-elements/container.php:181 elementor-elements/container.php:182
-#: elementor-elements/section.php:87 elementor-elements/section.php:88
+#: elementor-elements/container.php:183 elementor-elements/container.php:184
+#: elementor-elements/section.php:89 elementor-elements/section.php:90
 msgid "Also stretch left content too?"
 msgstr ""
 
-#: elementor-elements/container.php:198 elementor-elements/container.php:199
-#: elementor-elements/section.php:104 elementor-elements/section.php:105
+#: elementor-elements/container.php:200 elementor-elements/container.php:201
+#: elementor-elements/section.php:106 elementor-elements/section.php:107
 msgid "Also stretch right content too?"
 msgstr ""
 
-#: elementor-elements/container.php:215 elementor-elements/section.php:121
+#: elementor-elements/container.php:217 elementor-elements/section.php:123
 msgid "Left Content Area Margin"
 msgstr ""
 
-#: elementor-elements/container.php:216 elementor-elements/container.php:228
-#: elementor-elements/section.php:122 elementor-elements/section.php:134
+#: elementor-elements/container.php:218 elementor-elements/container.php:230
+#: elementor-elements/section.php:124 elementor-elements/section.php:136
 msgid "This is useful if you like to overlap columns on each other."
 msgstr ""
 
-#: elementor-elements/container.php:227 elementor-elements/section.php:133
+#: elementor-elements/container.php:229 elementor-elements/section.php:135
 msgid "Right Content Area Margin"
 msgstr ""
 
-#: elementor-elements/container.php:238
+#: elementor-elements/container.php:240
 msgid "Container Background Color"
 msgstr ""
 
-#: elementor-elements/container.php:239
+#: elementor-elements/container.php:241
 msgid "Pre-defined Background Color for this Container (ROW)"
 msgstr ""
 
-#: elementor-elements/container.php:259
+#: elementor-elements/container.php:261
 msgid "Container Text Color"
 msgstr ""
 
-#: elementor-elements/container.php:260
+#: elementor-elements/container.php:262
 msgid "Pre-defined Text Color in this Container (ROW)"
 msgstr ""
 
-#: elementor-elements/container.php:316 elementor-elements/section.php:245
-#: elementor-elements/section.php:399
+#: elementor-elements/container.php:318 elementor-elements/section.php:247
+#: elementor-elements/section.php:401
 msgid "Section Custom Width (px)"
 msgstr ""
 
-#: elementor-elements/container.php:337 elementor-elements/section.php:266
+#: elementor-elements/container.php:339 elementor-elements/section.php:268
 msgid "BG Overlay Display Type"
 msgstr ""
 
-#: elementor-elements/container.php:340 elementor-elements/container.php:440
-#: elementor-elements/section.php:269 elementor-elements/section.php:368
+#: elementor-elements/container.php:342 elementor-elements/container.php:442
+#: elementor-elements/section.php:271 elementor-elements/section.php:370
 #: lib/plugin-core-utility-variables-functions.php:1505
 #: lib/plugin-core-utility-variables-functions.php:1802
 #: widgets/counter-block/widget.php:301 widgets/hero-slider/widget.php:258
@@ -2996,8 +2996,8 @@ msgstr ""
 msgid "Show"
 msgstr ""
 
-#: elementor-elements/container.php:341 elementor-elements/container.php:444
-#: elementor-elements/section.php:270 elementor-elements/section.php:372
+#: elementor-elements/container.php:343 elementor-elements/container.php:446
+#: elementor-elements/section.php:272 elementor-elements/section.php:374
 #: external-plugins/mouse-helper/mouse-helper.php:202
 #: lib/plugin-core-utility-variables-functions.php:1509
 #: lib/plugin-core-utility-variables-functions.php:1806
@@ -3021,40 +3021,40 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: elementor-elements/container.php:360 elementor-elements/section.php:289
+#: elementor-elements/container.php:362 elementor-elements/section.php:291
 #: widgets-core/animated-layers/widget.php:403
 #: widgets-core/floating-objects/widget.php:251
 msgid "Clip Path Appear Animation"
 msgstr ""
 
-#: elementor-elements/container.php:365
+#: elementor-elements/container.php:367
 #: widgets-core/animated-layers/widget.php:408
 #: widgets-core/floating-objects/widget.php:256
 msgid "Clip Path Animation Right to Left"
 msgstr ""
 
-#: elementor-elements/container.php:399 elementor-elements/section.php:327
+#: elementor-elements/container.php:401 elementor-elements/section.php:329
 msgid "Wow Animation"
 msgstr ""
 
-#: elementor-elements/container.php:415 elementor-elements/section.php:343
+#: elementor-elements/container.php:417 elementor-elements/section.php:345
 msgid "Wow Animate Delay(ms or s)"
 msgstr ""
 
-#: elementor-elements/container.php:428 elementor-elements/section.php:356
+#: elementor-elements/container.php:430 elementor-elements/section.php:358
 msgid "Activate Gradient BG Fill/Clip?"
 msgstr ""
 
-#: elementor-elements/container.php:436 elementor-elements/section.php:364
+#: elementor-elements/container.php:438 elementor-elements/section.php:366
 msgid "Text Gradient Background Fill Effect?"
 msgstr ""
 
-#: elementor-elements/container.php:464 widgets-core/icon-box/widget.php:993
+#: elementor-elements/container.php:466 widgets-core/icon-box/widget.php:993
 #: widgets-core/pie-chart/widget.php:436 widgets-core/tabs/widget.php:564
 msgid "Enable Background Gradient"
 msgstr ""
 
-#: elementor-elements/container.php:466
+#: elementor-elements/container.php:468
 #: external-plugins/mouse-helper/mouse-helper.php:358
 #: external-plugins/mouse-helper/mouse-helper.php:432
 #: external-plugins/mouse-helper/mouse-helper.php:455
@@ -3080,7 +3080,7 @@ msgstr ""
 msgid "On"
 msgstr ""
 
-#: elementor-elements/container.php:467
+#: elementor-elements/container.php:469
 #: external-plugins/mouse-helper/mouse-helper.php:359
 #: external-plugins/mouse-helper/mouse-helper.php:433
 #: external-plugins/mouse-helper/mouse-helper.php:456
@@ -3106,12 +3106,12 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: elementor-elements/container.php:477 widgets-core/icon-box/widget.php:1006
+#: elementor-elements/container.php:479 widgets-core/icon-box/widget.php:1006
 #: widgets-core/pie-chart/widget.php:449 widgets-core/tabs/widget.php:577
 msgid "Background Gradient"
 msgstr ""
 
-#: elementor-elements/container.php:481
+#: elementor-elements/container.php:483
 #: widgets-core/contact-form-7/widget.php:1718
 #: widgets-core/icon-box/widget.php:1009
 #: widgets-core/newsletter/widget.php:738
@@ -3120,7 +3120,7 @@ msgstr ""
 msgid "Gradient One"
 msgstr ""
 
-#: elementor-elements/container.php:482
+#: elementor-elements/container.php:484
 #: widgets-core/contact-form-7/widget.php:1719
 #: widgets-core/icon-box/widget.php:1010
 #: widgets-core/newsletter/widget.php:739
@@ -3129,7 +3129,7 @@ msgstr ""
 msgid "Gradient Two"
 msgstr ""
 
-#: elementor-elements/container.php:483
+#: elementor-elements/container.php:485
 #: widgets-core/contact-form-7/widget.php:1720
 #: widgets-core/icon-box/widget.php:1011
 #: widgets-core/newsletter/widget.php:740
@@ -3138,143 +3138,143 @@ msgstr ""
 msgid "Gradient Three"
 msgstr ""
 
-#: elementor-elements/container.php:508
+#: elementor-elements/container.php:510
 msgid "Mascot - Curve BG Options"
 msgstr ""
 
-#: elementor-elements/container.php:515
+#: elementor-elements/container.php:517
 msgid "Enable Curve BG?"
 msgstr ""
 
-#: elementor-elements/container.php:527
+#: elementor-elements/container.php:529
 msgid "Curve BG 1st Theme Colored"
 msgstr ""
 
-#: elementor-elements/container.php:539
+#: elementor-elements/container.php:541
 msgid "Curve BG 1st Custom Color"
 msgstr ""
 
-#: elementor-elements/container.php:549
+#: elementor-elements/container.php:551
 msgid "Curve BG 1st Custom Width"
 msgstr ""
 
-#: elementor-elements/container.php:568
+#: elementor-elements/container.php:570
 msgid "Curve BG 2nd Theme Colored"
 msgstr ""
 
-#: elementor-elements/container.php:580
+#: elementor-elements/container.php:582
 msgid "Curve BG 2nd Custom Color"
 msgstr ""
 
-#: elementor-elements/container.php:590
+#: elementor-elements/container.php:592
 msgid "Curve BG 2nd Custom Width"
 msgstr ""
 
-#: elementor-elements/container.php:612
+#: elementor-elements/container.php:614
 msgid "Mascot - Container Custom Width"
 msgstr ""
 
-#: elementor-elements/container.php:619
+#: elementor-elements/container.php:621
 msgid "Container Custom Width (px)"
 msgstr ""
 
-#: elementor-elements/container.php:636
+#: elementor-elements/container.php:638
 msgid "Container Left/Right Margin Auto"
 msgstr ""
 
-#: elementor-elements/container.php:640 elementor-elements/section.php:420
+#: elementor-elements/container.php:642 elementor-elements/section.php:422
 msgid "Left Auto"
 msgstr ""
 
-#: elementor-elements/container.php:644 elementor-elements/section.php:424
+#: elementor-elements/container.php:646 elementor-elements/section.php:426
 msgid "Right Auto"
 msgstr ""
 
-#: elementor-elements/container.php:654
+#: elementor-elements/container.php:656
 msgid "Container Inner Custom Width (px)"
 msgstr ""
 
-#: elementor-elements/container.php:679 elementor-elements/section.php:459
+#: elementor-elements/container.php:681 elementor-elements/section.php:461
 msgid "Mascot - Equal Height"
 msgstr ""
 
-#: elementor-elements/container.php:686 elementor-elements/section.php:466
+#: elementor-elements/container.php:688 elementor-elements/section.php:468
 msgid "Enable Equal Height"
 msgstr ""
 
-#: elementor-elements/container.php:689 elementor-elements/section.php:469
+#: elementor-elements/container.php:691 elementor-elements/section.php:471
 msgid "You can equal your column/widgets height equal by enable this option."
 msgstr ""
 
-#: elementor-elements/container.php:695 elementor-elements/section.php:475
+#: elementor-elements/container.php:697 elementor-elements/section.php:477
 msgid "Equal Height For"
 msgstr ""
 
-#: elementor-elements/container.php:714 elementor-elements/section.php:494
+#: elementor-elements/container.php:716 elementor-elements/section.php:496
 msgid "Custom Selector"
 msgstr ""
 
-#: elementor-elements/container.php:726 elementor-elements/section.php:506
+#: elementor-elements/container.php:728 elementor-elements/section.php:508
 msgid "Disable On Tablet"
 msgstr ""
 
-#: elementor-elements/container.php:737 elementor-elements/section.php:517
+#: elementor-elements/container.php:739 elementor-elements/section.php:519
 msgid "Disable On Mobile"
 msgstr ""
 
-#: elementor-elements/container.php:753 elementor-elements/section.php:533
+#: elementor-elements/container.php:755 elementor-elements/section.php:535
 msgid "Mascot - Other Options"
 msgstr ""
 
-#: elementor-elements/container.php:760 elementor-elements/section.php:540
+#: elementor-elements/container.php:762 elementor-elements/section.php:542
 msgid "Show Four Vertical Lines in Background?"
 msgstr ""
 
-#: elementor-elements/container.php:768 elementor-elements/section.php:548
+#: elementor-elements/container.php:770 elementor-elements/section.php:550
 msgid "Show Smaill Vertical Lines in Background?"
 msgstr ""
 
-#: elementor-elements/container.php:780
+#: elementor-elements/container.php:782
 msgid "Mascot - BG Gsap Clip Path Effect"
 msgstr ""
 
-#: elementor-elements/container.php:787
+#: elementor-elements/container.php:789
 msgid "Enable BG Move Effect?"
 msgstr ""
 
-#: elementor-elements/section.php:144
+#: elementor-elements/section.php:146
 msgid "Section Background Color"
 msgstr ""
 
-#: elementor-elements/section.php:145
+#: elementor-elements/section.php:147
 msgid "Pre-defined Background Color for this Section (ROW)"
 msgstr ""
 
-#: elementor-elements/section.php:165
+#: elementor-elements/section.php:167
 msgid "Section Text Color"
 msgstr ""
 
-#: elementor-elements/section.php:166
+#: elementor-elements/section.php:168
 msgid "Pre-defined Text Color in this Section (ROW)"
 msgstr ""
 
-#: elementor-elements/section.php:205
+#: elementor-elements/section.php:207
 msgid "Mascot - Columns Flex Reverse Options"
 msgstr ""
 
-#: elementor-elements/section.php:212
+#: elementor-elements/section.php:214
 msgid "Columns Flex Direction Reverse"
 msgstr ""
 
-#: elementor-elements/section.php:392
+#: elementor-elements/section.php:394
 msgid "Mascot - Section Custom Width"
 msgstr ""
 
-#: elementor-elements/section.php:416
+#: elementor-elements/section.php:418
 msgid "Section Left/Right Margin Auto"
 msgstr ""
 
-#: elementor-elements/section.php:434
+#: elementor-elements/section.php:436
 msgid "Section Inner Custom Width (px)"
 msgstr ""
 
@@ -3789,7 +3789,8 @@ msgstr ""
 #: widgets-core/section-title/widget.php:257
 #: widgets-core/section-title/widget.php:983
 #: widgets-core/section-title/widget.php:1123
-#: widgets-core/section-title/widget.php:1510
+#: widgets-core/section-title/widget.php:1166
+#: widgets-core/section-title/widget.php:1541
 #: widgets-core/text-editor/widget.php:337
 #: widgets-core/text-editor/widget.php:491
 #: widgets-core/text-editor/widget.php:646 widgets-shop/account/widget.php:226
@@ -5062,7 +5063,7 @@ msgstr ""
 #: widgets/countdown-timer/widget.php:616 widgets/counter-block/widget.php:579
 #: widgets/counter-block/widget.php:1343 widgets/counter-block/widget.php:1428
 #: widgets/features-block/widget.php:888 widgets/pricing-block/widget.php:857
-#: widgets/service-block/widget.php:1033 widgets/team-block/widget.php:1019
+#: widgets/service-block/widget.php:1042 widgets/team-block/widget.php:1019
 #: widgets/team-block/skins/skin-style1.php:136
 #: widgets/team-block/skins/skin-style2.php:136
 #: widgets/team-block/skins/skin-style3.php:136
@@ -5118,7 +5119,7 @@ msgstr ""
 #: widgets/hero-slider/widget.php:804 widgets/page-title/widget.php:470
 #: widgets/pricing-block/widget.php:872 widgets/pricing-plan/widget.php:1903
 #: widgets/projects-pre-next/widget.php:602
-#: widgets/service-block/widget.php:1048
+#: widgets/service-block/widget.php:1057
 #: widgets/service-block/skins/skin-style2.php:226
 #: widgets/service-block/skins/skin-style3.php:226
 #: widgets/swiper-carousel-arrow/widget.php:261
@@ -5381,8 +5382,8 @@ msgstr ""
 #: widgets/counter-block/widget.php:1039 widgets/counter-block/widget.php:1184
 #: widgets/features-block/widget.php:551 widgets/features-block/widget.php:688
 #: widgets/pricing-block/widget.php:420 widgets/pricing-block/widget.php:555
-#: widgets/pricing-block/widget.php:660 widgets/service-block/widget.php:594
-#: widgets/service-block/widget.php:731 widgets/service-block/widget.php:836
+#: widgets/pricing-block/widget.php:660 widgets/service-block/widget.php:603
+#: widgets/service-block/widget.php:740 widgets/service-block/widget.php:845
 #: widgets/team-block/widget.php:530 widgets/team-block/widget.php:670
 #: widgets/team-block/widget.php:810 widgets/testimonial-block/widget.php:561
 #: widgets/testimonial-block/widget.php:699
@@ -6011,7 +6012,7 @@ msgstr ""
 #: widgets/circle-text/widget.php:667 widgets/countdown-timer/widget.php:517
 #: widgets/counter-block/widget.php:495 widgets/features-block/widget.php:929
 #: widgets/moving-text-repeater/widget.php:774
-#: widgets/pricing-block/widget.php:898 widgets/service-block/widget.php:1074
+#: widgets/pricing-block/widget.php:898 widgets/service-block/widget.php:1083
 #: widgets/site-logo/widget.php:139 widgets/team-block/widget.php:1060
 #: widgets/working-block/widget.php:921
 #: widgets-core/animated-layers/widget.php:844
@@ -6041,7 +6042,7 @@ msgstr ""
 #: widgets/circle-text/widget.php:701 widgets/counter-block/widget.php:523
 #: widgets/features-block/widget.php:957
 #: widgets/moving-text-repeater/widget.php:808
-#: widgets/pricing-block/widget.php:928 widgets/service-block/widget.php:1104
+#: widgets/pricing-block/widget.php:928 widgets/service-block/widget.php:1113
 #: widgets/site-logo/widget.php:209 widgets/team-block/widget.php:1088
 #: widgets/working-block/widget.php:949
 #: widgets-core/animated-layers/widget.php:922
@@ -6172,7 +6173,7 @@ msgstr ""
 #: widgets/app-button/widget.php:452 widgets/award-block/widget.php:366
 #: widgets/circle-text/widget.php:629 widgets/counter-block/widget.php:436
 #: widgets/features-block/widget.php:750 widgets/pricing-block/widget.php:715
-#: widgets/service-block/widget.php:891
+#: widgets/service-block/widget.php:900
 #: widgets/testimonial-block/widget.php:467
 #: widgets/working-block/widget.php:742
 #: widgets-core/animated-layers/widget.php:1098
@@ -6203,7 +6204,7 @@ msgstr ""
 #: lib/plugin-core-utility-variables-functions.php:2152
 #: widgets/award-block/widget.php:372 widgets/counter-block/widget.php:442
 #: widgets/features-block/widget.php:756 widgets/pricing-block/widget.php:721
-#: widgets/service-block/widget.php:897
+#: widgets/service-block/widget.php:906
 #: widgets/testimonial-block/widget.php:473
 #: widgets/working-block/widget.php:748
 #: widgets-core/floating-objects/widget.php:225
@@ -6366,7 +6367,7 @@ msgstr ""
 #: widgets-core/image-with-rotated-text/widget.php:633
 #: widgets-core/paroller-animation/widget.php:312
 #: widgets-core/rotated-text/widget.php:324
-#: widgets-core/section-title/widget.php:1383
+#: widgets-core/section-title/widget.php:1414
 #: widgets-shop/info-banner/widget.php:484
 #: widgets-shop/info-banner/widget.php:517
 msgid "Opacity"
@@ -6429,7 +6430,7 @@ msgstr ""
 #: widgets-core/navigation-menu/widget.php:640
 #: widgets-core/navigation-menu/widget.php:881
 #: widgets-core/rotated-text/widget.php:200
-#: widgets-core/section-title/widget.php:1332
+#: widgets-core/section-title/widget.php:1363
 #: widgets-core/tabs/skins/skin-left-nav.php:217
 #: widgets-core/tabs/skins/skin-left-nav.php:483
 #: widgets-core/tabs/skins/skin-left-nav.php:753
@@ -6459,8 +6460,8 @@ msgstr ""
 #: widgets-core/navigation-menu/widget.php:938
 #: widgets-core/rotated-text/widget.php:219
 #: widgets-core/rotated-text/widget.php:263
-#: widgets-core/section-title/widget.php:1308
-#: widgets-core/section-title/widget.php:1351
+#: widgets-core/section-title/widget.php:1339
+#: widgets-core/section-title/widget.php:1382
 #: widgets-core/tabs/skins/skin-left-nav.php:236
 #: widgets-core/tabs/skins/skin-left-nav.php:274
 #: widgets-core/tabs/skins/skin-left-nav.php:502
@@ -6486,7 +6487,7 @@ msgstr ""
 #: widgets-core/navigation-menu/widget.php:678
 #: widgets-core/navigation-menu/widget.php:919
 #: widgets-core/rotated-text/widget.php:244
-#: widgets-core/section-title/widget.php:1289
+#: widgets-core/section-title/widget.php:1320
 #: widgets-core/tabs/skins/skin-left-nav.php:255
 #: widgets-core/tabs/skins/skin-left-nav.php:521
 #: widgets-core/tabs/skins/skin-left-nav.php:791
@@ -6656,7 +6657,7 @@ msgid "This is a section subtitle"
 msgstr ""
 
 #: widgets/award-block/widget.php:236 widgets/features-block/widget.php:447
-#: widgets/hero-slider/widget.php:420 widgets/service-block/widget.php:484
+#: widgets/hero-slider/widget.php:420 widgets/service-block/widget.php:493
 #: widgets/working-block/widget.php:173
 #: widgets-core/image-background-text-effect/widget.php:144
 msgid "Subtitle Tag"
@@ -6671,7 +6672,7 @@ msgstr ""
 #: widgets/award-block/widget.php:247 widgets/award-block/widget.php:313
 #: widgets/features-block/widget.php:157 widgets/features-block/widget.php:337
 #: widgets/pricing-block/widget.php:187 widgets/service-block/widget.php:161
-#: widgets/service-block/widget.php:385
+#: widgets/service-block/widget.php:394
 #: widgets/testimonial-block/widget.php:258
 #: widgets/working-block/widget.php:184 widgets/working-block/widget.php:348
 #: widgets-core/icon-box/widget.php:181
@@ -6720,7 +6721,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:298 widgets/features-block/widget.php:291
 #: widgets/hero-slider/widget.php:152 widgets/pricing-block/widget.php:177
-#: widgets/service-block/widget.php:327
+#: widgets/service-block/widget.php:327 widgets/service-block/widget.php:336
 #: widgets/testimonial-block/widget.php:180
 #: widgets/working-block/widget.php:310
 msgid ""
@@ -6730,14 +6731,14 @@ msgstr ""
 
 #: widgets/award-block/widget.php:309 widgets/features-block/widget.php:333
 #: widgets/hero-slider/widget.php:224 widgets/pricing-block/widget.php:233
-#: widgets/service-block/widget.php:381 widgets/showcase-block/widget.php:205
+#: widgets/service-block/widget.php:390 widgets/showcase-block/widget.php:205
 #: widgets/team-block/widget.php:304 widgets/testimonial-block/widget.php:254
 #: widgets/working-block/widget.php:344
 msgid "Title #1"
 msgstr ""
 
 #: widgets/award-block/widget.php:310 widgets/features-block/widget.php:334
-#: widgets/service-block/widget.php:382 widgets/team-block/widget.php:305
+#: widgets/service-block/widget.php:391 widgets/team-block/widget.php:305
 #: widgets/working-block/widget.php:345
 msgid "subtitle #1"
 msgstr ""
@@ -6748,8 +6749,8 @@ msgstr ""
 #: widgets/hero-slider/widget.php:227 widgets/hero-slider/widget.php:233
 #: widgets/hero-slider/widget.php:239 widgets/pricing-block/widget.php:235
 #: widgets/pricing-block/widget.php:241 widgets/pricing-block/widget.php:247
-#: widgets/service-block/widget.php:384 widgets/service-block/widget.php:391
-#: widgets/service-block/widget.php:398
+#: widgets/service-block/widget.php:393 widgets/service-block/widget.php:400
+#: widgets/service-block/widget.php:407
 #: widgets/testimonial-block/widget.php:257
 #: widgets/testimonial-block/widget.php:264
 #: widgets/testimonial-block/widget.php:271
@@ -6765,7 +6766,7 @@ msgstr ""
 #: widgets/award-block/widget.php:318 widgets/award-block/widget.php:319
 #: widgets/features-block/widget.php:340 widgets/features-block/widget.php:341
 #: widgets/hero-slider/widget.php:230 widgets/pricing-block/widget.php:239
-#: widgets/service-block/widget.php:388 widgets/service-block/widget.php:389
+#: widgets/service-block/widget.php:397 widgets/service-block/widget.php:398
 #: widgets/showcase-block/widget.php:211 widgets/team-block/widget.php:314
 #: widgets/team-block/widget.php:315 widgets/testimonial-block/widget.php:261
 #: widgets/testimonial-block/widget.php:262
@@ -6774,7 +6775,7 @@ msgid "Title #2"
 msgstr ""
 
 #: widgets/award-block/widget.php:322 widgets/features-block/widget.php:344
-#: widgets/service-block/widget.php:392
+#: widgets/service-block/widget.php:401
 #: widgets/testimonial-block/widget.php:265
 #: widgets/working-block/widget.php:355
 #: widgets-core/vertical-bg-img-list/widget.php:190
@@ -6792,7 +6793,7 @@ msgstr ""
 #: widgets/award-block/widget.php:327 widgets/award-block/widget.php:328
 #: widgets/features-block/widget.php:347 widgets/features-block/widget.php:348
 #: widgets/hero-slider/widget.php:236 widgets/pricing-block/widget.php:245
-#: widgets/service-block/widget.php:395 widgets/service-block/widget.php:396
+#: widgets/service-block/widget.php:404 widgets/service-block/widget.php:405
 #: widgets/showcase-block/widget.php:217 widgets/team-block/widget.php:324
 #: widgets/team-block/widget.php:325 widgets/testimonial-block/widget.php:268
 #: widgets/testimonial-block/widget.php:269
@@ -6801,7 +6802,7 @@ msgid "Title #3"
 msgstr ""
 
 #: widgets/award-block/widget.php:331 widgets/features-block/widget.php:351
-#: widgets/service-block/widget.php:399
+#: widgets/service-block/widget.php:408
 #: widgets/testimonial-block/widget.php:272
 #: widgets/working-block/widget.php:362
 #: widgets-core/vertical-bg-img-list/widget.php:197
@@ -6825,7 +6826,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:362 widgets/counter-block/widget.php:432
 #: widgets/features-block/widget.php:746 widgets/pricing-block/widget.php:711
-#: widgets/service-block/widget.php:887
+#: widgets/service-block/widget.php:896
 #: widgets/testimonial-block/widget.php:463
 #: widgets/working-block/widget.php:738
 #: widgets-core/funfact-counter/widget.php:468
@@ -6837,7 +6838,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:367 widgets/counter-block/widget.php:437
 #: widgets/features-block/widget.php:751 widgets/pricing-block/widget.php:716
-#: widgets/service-block/widget.php:892
+#: widgets/service-block/widget.php:901
 #: widgets/testimonial-block/widget.php:468
 #: widgets/working-block/widget.php:743
 #: widgets-core/funfact-counter/widget.php:473
@@ -6849,7 +6850,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:368 widgets/counter-block/widget.php:438
 #: widgets/features-block/widget.php:752 widgets/pricing-block/widget.php:717
-#: widgets/service-block/widget.php:893
+#: widgets/service-block/widget.php:902
 #: widgets/testimonial-block/widget.php:469
 #: widgets/working-block/widget.php:744
 #: widgets-core/funfact-counter/widget.php:474
@@ -6861,7 +6862,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:369 widgets/counter-block/widget.php:439
 #: widgets/features-block/widget.php:753 widgets/pricing-block/widget.php:718
-#: widgets/service-block/widget.php:894
+#: widgets/service-block/widget.php:903
 #: widgets/testimonial-block/widget.php:470
 #: widgets/working-block/widget.php:745
 #: widgets-core/funfact-counter/widget.php:475
@@ -6873,7 +6874,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:370 widgets/counter-block/widget.php:440
 #: widgets/features-block/widget.php:754 widgets/pricing-block/widget.php:719
-#: widgets/service-block/widget.php:895
+#: widgets/service-block/widget.php:904
 #: widgets/testimonial-block/widget.php:471
 #: widgets/working-block/widget.php:746
 #: widgets-core/funfact-counter/widget.php:476
@@ -6883,7 +6884,7 @@ msgstr ""
 
 #: widgets/award-block/widget.php:371 widgets/counter-block/widget.php:441
 #: widgets/features-block/widget.php:755 widgets/pricing-block/widget.php:720
-#: widgets/service-block/widget.php:896
+#: widgets/service-block/widget.php:905
 #: widgets/testimonial-block/widget.php:472
 #: widgets/working-block/widget.php:747
 #: widgets-core/funfact-counter/widget.php:477
@@ -6904,7 +6905,7 @@ msgstr ""
 #: widgets/award-block/widget.php:476
 #: widgets-core/animated-layers/widget.php:1351
 #: widgets-core/icon-box/widget.php:1609
-#: widgets-core/section-title/widget.php:1411
+#: widgets-core/section-title/widget.php:1442
 msgid "Paragraph Color"
 msgstr ""
 
@@ -7324,7 +7325,7 @@ msgid "Background Blur"
 msgstr ""
 
 #: widgets/circle-text/widget.php:976 widgets/pricing-plan/widget.php:1764
-#: widgets-core/section-title/widget.php:1480
+#: widgets-core/section-title/widget.php:1511
 msgid "Wrapper Background Options"
 msgstr ""
 
@@ -7347,7 +7348,7 @@ msgstr ""
 #: widgets/countdown-timer/widget.php:172 widgets/counter-block/widget.php:170
 #: widgets/counter-block/widget.php:450 widgets/features-block/widget.php:372
 #: widgets/page-title/widget.php:127 widgets/pricing-block/widget.php:271
-#: widgets/pricing-plan/widget.php:197 widgets/service-block/widget.php:493
+#: widgets/pricing-plan/widget.php:197 widgets/service-block/widget.php:502
 #: widgets/working-block/widget.php:385
 #: widgets-core/animated-layers/widget.php:767
 #: widgets-core/funfact-counter/widget.php:157
@@ -7461,7 +7462,7 @@ msgstr ""
 
 #: widgets/counter-block/widget.php:128 widgets/features-block/widget.php:365
 #: widgets/hero-slider/widget.php:323 widgets/pricing-block/widget.php:264
-#: widgets/service-block/widget.php:414 widgets/team-block/widget.php:344
+#: widgets/service-block/widget.php:423 widgets/team-block/widget.php:344
 #: widgets/testimonial-block/widget.php:285
 #: widgets/working-block/widget.php:378
 #: widgets-core/funfact-counter/widget.php:114
@@ -7640,7 +7641,7 @@ msgid "Upload Icon Bg image"
 msgstr ""
 
 #: widgets/counter-block/widget.php:425 widgets/features-block/widget.php:732
-#: widgets/pricing-block/widget.php:697 widgets/service-block/widget.php:873
+#: widgets/pricing-block/widget.php:697 widgets/service-block/widget.php:882
 #: widgets/working-block/widget.php:724
 #: widgets-core/funfact-counter/widget.php:454
 #: widgets-core/icon-box/widget.php:677 widgets-core/info-box/widget.php:240
@@ -7659,7 +7660,7 @@ msgid "Icon Vertical Alignment(Flex)"
 msgstr ""
 
 #: widgets/counter-block/widget.php:488 widgets/features-block/widget.php:922
-#: widgets/pricing-block/widget.php:891 widgets/service-block/widget.php:1067
+#: widgets/pricing-block/widget.php:891 widgets/service-block/widget.php:1076
 #: widgets/team-block/widget.php:1053 widgets/working-block/widget.php:914
 #: widgets-core/animated-layers/widget.php:811
 #: widgets-core/floating-objects/widget.php:365
@@ -7675,7 +7676,7 @@ msgid "Dimension Options"
 msgstr ""
 
 #: widgets/counter-block/widget.php:513 widgets/features-block/widget.php:947
-#: widgets/pricing-block/widget.php:917 widgets/service-block/widget.php:1093
+#: widgets/pricing-block/widget.php:917 widgets/service-block/widget.php:1102
 #: widgets/team-block/widget.php:1078 widgets/working-block/widget.php:939
 #: widgets-core/funfact-counter/widget.php:549
 #: widgets-core/icon-box/widget.php:898 widgets-core/pie-chart/widget.php:342
@@ -7683,7 +7684,7 @@ msgid "Make Icon Width to Auto?"
 msgstr ""
 
 #: widgets/counter-block/widget.php:541 widgets/features-block/widget.php:975
-#: widgets/pricing-block/widget.php:947 widgets/service-block/widget.php:1123
+#: widgets/pricing-block/widget.php:947 widgets/service-block/widget.php:1132
 #: widgets/team-block/widget.php:1106 widgets/working-block/widget.php:967
 #: widgets-core/funfact-counter/widget.php:577
 #: widgets-core/icon-box/widget.php:926 widgets-core/pie-chart/widget.php:370
@@ -7691,7 +7692,7 @@ msgid "Make Icon Height to Auto?"
 msgstr ""
 
 #: widgets/counter-block/widget.php:551 widgets/features-block/widget.php:845
-#: widgets/pricing-block/widget.php:814 widgets/service-block/widget.php:990
+#: widgets/pricing-block/widget.php:814 widgets/service-block/widget.php:999
 #: widgets/team-block/widget.php:978 widgets/working-block/widget.php:837
 #: widgets-core/funfact-counter/widget.php:587
 #: widgets-core/icon-box/widget.php:936 widgets-core/info-box/widget.php:432
@@ -7701,7 +7702,7 @@ msgstr ""
 
 #: widgets/counter-block/widget.php:620 widgets/features-block/widget.php:865
 #: widgets/pricing-block/widget.php:834 widgets/pricing-plan/widget.php:674
-#: widgets/service-block/widget.php:1010 widgets/team-block/widget.php:996
+#: widgets/service-block/widget.php:1019 widgets/team-block/widget.php:996
 #: widgets/working-block/widget.php:857 widgets-core/accordion/widget.php:624
 #: widgets-core/accordion/widget.php:805 widgets-core/button/widget.php:243
 #: widgets-core/contact-list/widget.php:334
@@ -7717,7 +7718,7 @@ msgid "Icon Margin"
 msgstr ""
 
 #: widgets/counter-block/widget.php:632 widgets/features-block/widget.php:877
-#: widgets/pricing-block/widget.php:846 widgets/service-block/widget.php:1022
+#: widgets/pricing-block/widget.php:846 widgets/service-block/widget.php:1031
 #: widgets/team-block/widget.php:1008 widgets/working-block/widget.php:869
 #: widgets-core/accordion/widget.php:636 widgets-core/accordion/widget.php:817
 #: widgets-core/button/widget.php:254
@@ -7729,7 +7730,7 @@ msgstr ""
 #: widgets/counter-block/widget.php:657 widgets/features-block/widget.php:778
 #: widgets/features-block/widget.php:1000 widgets/pricing-block/widget.php:755
 #: widgets/pricing-block/widget.php:985 widgets/pricing-plan/widget.php:642
-#: widgets/service-block/widget.php:931 widgets/service-block/widget.php:1161
+#: widgets/service-block/widget.php:940 widgets/service-block/widget.php:1170
 #: widgets/team-block/widget.php:913 widgets/team-block/widget.php:1131
 #: widgets/working-block/widget.php:770 widgets/working-block/widget.php:992
 #: widgets-core/animated-layers/widget.php:263
@@ -7747,8 +7748,8 @@ msgstr ""
 
 #: widgets/counter-block/widget.php:670 widgets/features-block/widget.php:791
 #: widgets/features-block/widget.php:1013 widgets/pricing-block/widget.php:743
-#: widgets/pricing-block/widget.php:973 widgets/service-block/widget.php:919
-#: widgets/service-block/widget.php:1149 widgets/team-block/widget.php:925
+#: widgets/pricing-block/widget.php:973 widgets/service-block/widget.php:928
+#: widgets/service-block/widget.php:1158 widgets/team-block/widget.php:925
 #: widgets/team-block/widget.php:1143 widgets/working-block/widget.php:783
 #: widgets/working-block/widget.php:1005
 #: widgets-core/animated-layers/widget.php:294
@@ -7761,8 +7762,8 @@ msgstr ""
 #: widgets/counter-block/widget.php:690 widgets/counter-block/widget.php:768
 #: widgets/features-block/widget.php:816
 #: widgets/features-block/widget.php:1030 widgets/pricing-block/widget.php:783
-#: widgets/pricing-block/widget.php:1005 widgets/service-block/widget.php:959
-#: widgets/service-block/widget.php:1181 widgets/team-block/widget.php:949
+#: widgets/pricing-block/widget.php:1005 widgets/service-block/widget.php:968
+#: widgets/service-block/widget.php:1190 widgets/team-block/widget.php:949
 #: widgets/team-block/widget.php:1159 widgets/working-block/widget.php:808
 #: widgets/working-block/widget.php:1022
 #: widgets-core/funfact-counter/widget.php:696
@@ -7817,7 +7818,7 @@ msgid "Title Custom CSS Class"
 msgstr ""
 
 #: widgets/counter-block/widget.php:1109 widgets/hero-slider/widget.php:543
-#: widgets/pricing-block/widget.php:487 widgets/service-block/widget.php:663
+#: widgets/pricing-block/widget.php:487 widgets/service-block/widget.php:672
 #: widgets-core/funfact-counter/widget.php:1114
 #: widgets-core/image-background-text-effect/widget.php:333
 msgid "Subtitle Styling"
@@ -7840,7 +7841,7 @@ msgstr ""
 #: widgets-core/image-with-rotated-text/widget.php:615
 #: widgets-core/rotated-text/widget.php:586
 #: widgets-core/section-title/widget.php:1111
-#: widgets-core/section-title/widget.php:1487
+#: widgets-core/section-title/widget.php:1518
 #: widgets-shop/info-banner/widget.php:1379
 #: widgets-shop/product-tabs/widget.php:361
 msgid "Wrapper Padding"
@@ -7851,7 +7852,7 @@ msgstr ""
 #: widgets-core/contact-form-7/widget.php:862
 #: widgets-core/funfact-counter/widget.php:1307
 #: widgets-core/icon-box/widget.php:1704
-#: widgets-core/section-title/widget.php:1498
+#: widgets-core/section-title/widget.php:1529
 #: widgets-shop/info-banner/widget.php:1390
 msgid "Wrapper Margin"
 msgstr ""
@@ -7949,13 +7950,13 @@ msgstr ""
 msgid "Image Custom Width"
 msgstr ""
 
-#: widgets/features-block/widget.php:297 widgets/service-block/widget.php:345
+#: widgets/features-block/widget.php:297 widgets/service-block/widget.php:354
 #: widgets/team-block/widget.php:268 widgets/testimonial-block/widget.php:218
 msgid "Motion Effects"
 msgstr ""
 
 #: widgets/features-block/widget.php:430 widgets/hero-slider/widget.php:367
-#: widgets/pricing-block/widget.php:325 widgets/service-block/widget.php:467
+#: widgets/pricing-block/widget.php:325 widgets/service-block/widget.php:476
 #: widgets/working-block/widget.php:443 widgets-core/icon-box/widget.php:295
 #: widgets-core/info-box/widget.php:164
 #: widgets-core/section-title/widget.php:560
@@ -7966,8 +7967,8 @@ msgstr ""
 
 #: widgets/features-block/widget.php:823
 #: widgets/features-block/widget.php:1037 widgets/pricing-block/widget.php:801
-#: widgets/pricing-block/widget.php:1023 widgets/service-block/widget.php:977
-#: widgets/service-block/widget.php:1199 widgets/team-block/widget.php:956
+#: widgets/pricing-block/widget.php:1023 widgets/service-block/widget.php:986
+#: widgets/service-block/widget.php:1208 widgets/team-block/widget.php:956
 #: widgets/team-block/widget.php:1166 widgets/working-block/widget.php:815
 #: widgets/working-block/widget.php:1029
 msgid "Icon Area BG Theme Colored"
@@ -7975,8 +7976,8 @@ msgstr ""
 
 #: widgets/features-block/widget.php:835
 #: widgets/features-block/widget.php:1049 widgets/pricing-block/widget.php:790
-#: widgets/pricing-block/widget.php:1012 widgets/service-block/widget.php:966
-#: widgets/service-block/widget.php:1188 widgets/team-block/widget.php:968
+#: widgets/pricing-block/widget.php:1012 widgets/service-block/widget.php:975
+#: widgets/service-block/widget.php:1197 widgets/team-block/widget.php:968
 #: widgets/team-block/widget.php:1178 widgets/working-block/widget.php:827
 #: widgets/working-block/widget.php:1041
 msgid "Icon Area Custom BG Color"
@@ -8398,7 +8399,7 @@ msgid "Thumb Alignment"
 msgstr ""
 
 #: widgets/hero-slider/widget.php:642 widgets-core/icon-box/widget.php:1602
-#: widgets-core/section-title/widget.php:1404
+#: widgets-core/section-title/widget.php:1435
 msgid "Paragraph Styling"
 msgstr ""
 
@@ -9375,7 +9376,7 @@ msgstr ""
 msgid "Service Block"
 msgstr ""
 
-#: widgets/service-block/widget.php:135 widgets/service-block/widget.php:376
+#: widgets/service-block/widget.php:135 widgets/service-block/widget.php:385
 msgid "Service Items"
 msgstr ""
 
@@ -9413,6 +9414,10 @@ msgstr ""
 
 #: widgets/service-block/widget.php:281
 msgid "Icon Image Custom Width"
+msgstr ""
+
+#: widgets/service-block/widget.php:334
+msgid "Service List"
 msgstr ""
 
 #: widgets/service-block/skins/skin-creative1.php:22
@@ -10587,7 +10592,7 @@ msgstr ""
 
 #: widgets-core/animated-layers/widget.php:1365
 #: widgets-core/icon-box/widget.php:1623
-#: widgets-core/section-title/widget.php:1425
+#: widgets-core/section-title/widget.php:1456
 msgid "Paragraph Color (Hover)"
 msgstr ""
 
@@ -10886,7 +10891,7 @@ msgstr ""
 #: widgets-core/clients-logo/widget.php:517
 #: widgets-core/clients-logo/widget.php:615
 #: widgets-core/icon-box/widget.php:1222
-#: widgets-core/section-title/widget.php:1375
+#: widgets-core/section-title/widget.php:1406
 msgid "Opacity Options"
 msgstr ""
 
@@ -11762,7 +11767,7 @@ msgid "Rotated Text Options"
 msgstr ""
 
 #: widgets-core/image-with-rotated-text/widget.php:175
-#: widgets-core/section-title/widget.php:1172
+#: widgets-core/section-title/widget.php:1203
 msgid "Enable Text Textillate Animation on Text?"
 msgstr ""
 
@@ -12657,32 +12662,40 @@ msgstr ""
 msgid "Sub Title Margin"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1157
-#: widgets-core/section-title/widget.php:1164
+#: widgets-core/section-title/widget.php:1147
+msgid "Dot Options"
+msgstr ""
+
+#: widgets-core/section-title/widget.php:1155
+msgid "Dot Color"
+msgstr ""
+
+#: widgets-core/section-title/widget.php:1188
+#: widgets-core/section-title/widget.php:1195
 msgid "Title Shadow Text"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1165
+#: widgets-core/section-title/widget.php:1196
 msgid "It will be displayed behind the title as a big blurred gray text"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1183
+#: widgets-core/section-title/widget.php:1214
 msgid "Title Shadow Text Styling"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1250
+#: widgets-core/section-title/widget.php:1281
 msgid "Text Container Width"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1281
+#: widgets-core/section-title/widget.php:1312
 msgid "Position"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1439
+#: widgets-core/section-title/widget.php:1470
 msgid "Paragraph Theme Colored"
 msgstr ""
 
-#: widgets-core/section-title/widget.php:1452
+#: widgets-core/section-title/widget.php:1483
 msgid "Paragraph Theme Colored (Hover)"
 msgstr ""
 
