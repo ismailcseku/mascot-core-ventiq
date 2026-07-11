@@ -83,7 +83,7 @@
             min-width: 150px;
           }
           &:hover {
-            color: var(--theme-color3);
+            color: var(--theme-color3-text-color);
           }
           &:hover:before {
             background-color: var(--theme-color1);
@@ -242,7 +242,7 @@
           min-width: 150px;
         }
         &:hover {
-          color: var(--theme-color3);
+          color: var(--theme-color3-text-color);
         }
         &:hover:before {
           background-color: var(--theme-color1);

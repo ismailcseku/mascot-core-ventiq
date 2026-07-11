@@ -416,7 +416,7 @@
   }
 }
 .pricing-plan-skin-style1:hover .inner-box .btn-view-details a:hover, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover {
-  color: var(--theme-color3);
+  color: var(--theme-color3-text-color);
 }
 .pricing-plan-skin-style1:hover .inner-box .btn-view-details a:hover:before, .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover:before {
   background-color: var(--theme-color1);
@@ -565,7 +565,7 @@
   }
 }
 .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover {
-  color: var(--theme-color3);
+  color: var(--theme-color3-text-color);
 }
 .pricing-plan-skin-style1.pricing-active .inner-box .btn-view-details a:hover:before {
   background-color: var(--theme-color1);
